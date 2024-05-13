@@ -28,6 +28,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
+    position: relative;
     height: var(--header-height);
 }
 .menu-btn {
@@ -40,7 +41,7 @@ header {
     width: 40px;
     border-radius: 50%;
     position: absolute;
-    left: 11px;
+    left: 0px;
     top: 8px;
     display: none;
     cursor: pointer;
@@ -131,7 +132,7 @@ header {
     opacity: 0.7;
 }
 .nav-buttons {
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     flex-direction: row;
 }
@@ -170,7 +171,7 @@ header {
 .show {
     /* display: block; */
     opacity: 1;
-    z-index: 9;
+    /* z-index: 9; */
     transform: translate(0px, 0px);
 }
 .search-box {
@@ -247,9 +248,10 @@ header {
     position: relative;
 }
 .search-btn{
-    color: black;
+    color: #242121;
     text-decoration: none;
     font-size: 12.99px;
+    line-height: 19.48px;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -391,13 +393,25 @@ header {
 .matt_Dusing{
     background: url('./assets/images/Matt_bg.png') no-repeat right;
 }
+@media (max-width:600px){
+    .header .menu .drawer.drawer-visible {
+        width: 100%!important;
+        left: -600px;
+    }
+    .menu-btn {
+        position: initial;
+    }
+}
 
 @media (max-width: 920px) {
     .menu-btn, .close-btn {
         display: block;
     }
     .header .logo {
-        margin-left: 45px;
+        margin-left: auto;
+    }
+    .user-menu{
+        display: none;
     }
     .header .menu {
         display: flex;
@@ -413,7 +427,7 @@ header {
         padding-top: 50px;
         height: 100%;
         width: 225px;
-        background: #fff;
+        background: #1E1E1E;
         flex-direction: column;
         position: fixed;
         left: -240px;
@@ -437,9 +451,15 @@ header {
     .header .menu .drawer .nav-menus a {
         padding: 12px 0;
         display: flex;
-        justify-content: space-between;
-        border-bottom: 1px solid #AD543B33;
+        justify-content: center;
         margin: 5px 10px;
+        color: #fff;
+    }
+    .close-btn {
+        background: #fff;
+        right: 15px;
+        left: initial;
+        top: 15px;
     }
     .navbar-nav .dropdown-menu {
         padding: 15px 0;
@@ -464,9 +484,34 @@ header {
     .search-menu h2 {
         font-size: 28px;
     }
-    .logo {
-        display: none;
-    }
 }
 
 /******************** Header CSS end ***********************/
+
+
+.img-full{
+    width: 100%;
+}
+.breadcrumb-sec{
+    background: #D9D9D966;
+}
+.breadcrum-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.breadcrum-wrap p{
+    margin-bottom: 0;
+}
+.back-wrap a{
+    text-decoration: none;
+    color: #000000;
+}
+.room-heading{
+    text-align: center;
+    font-size: 45px;
+    line-height: 61.2px;
+    letter-spacing: -0.2px;
+    font-family: 'Recoleta';
+}
