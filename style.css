@@ -70,16 +70,16 @@ header {
     display: flex;
     align-items: center;
     padding: 0;
-    color: #AD543B;
+    color: black;
     font-size: 16px;
     position: relative;
     font-family: 'Poppins-Medium';
 }
 .nav-menus .nav-link {
-    color: #AD543B;
+    color: black;
 }
 .nav-menus .dropdown-item {
-    color: #AD543B;
+    color: black;
     font-family: 'Poppins-Regular' !important;
 }
 .header .menu .drawer .nav-item > a:hover::before {
@@ -87,7 +87,7 @@ header {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #AD543B;
+    background: black;
     bottom: 0;
     left: 0;
     transition: 0, 3s ease;
@@ -109,7 +109,7 @@ header {
 }
 .navbar-nav .dropdown-menu {
     padding: 20px;
-    border-top: 1px solid #B8604733;
+    border-top: 1px solid black;
     border-radius: 0;
 }
 .nav-menus .dropdown-menu li:not(:last-child) {
@@ -124,7 +124,7 @@ header {
     transition: 0.5s ease-in-out;
 }
 .mega-menu-heading {
-    color: #AD543B;
+    color: black;
     font-family: 'Poppins-Medium';
     text-transform: uppercase;
 }
