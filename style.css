@@ -16,6 +16,13 @@ body{
 
 	
 }
+@font-face {
+	font-family: 'RecifeDisplay';
+	src: url('./assets/fonts/recife/RecifeDisplay-Light.ttf');
+
+	
+}
+
 
 header {
     background: #fff;
