@@ -286,6 +286,58 @@ header {
  letter-spacing: 1px;
    ;
 }
+.artistry_section .motion_heading{
+    font-size: 51.62px;
+    line-height: 61.94px;
+    font-weight: 300;
+    font-family: 'RecifeDisplay';
+}
+.artwork_Section{
+    margin-top: 60px;
+}
+.mustang_section{
+    margin-top: 35px;
+}
+.explore_heading h1{
+    font-size: 64px;
+    font-family: 'RecifeDisplay';
+    font-weight: 300;
+    line-height: 67px;
+    letter-spacing: 1.5px;
+}
+.explore_heading .explore_text{
+    font-size: 19px;
+    line-height: 25.84px;
+    letter-spacing: 1.2px;
+    font-family: 'Recoleta';
+}
+.mustang_heading{
+    font-family: 'Recoleta';
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 49px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.mustang_text{
+    font-family: 'Roboto Serif';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color:rgba(0, 0, 0, 0.78);
+
+}
+.view_series button{
+    width: 196.94px;
+    height: 57px;
+    border: 2px solid rgba(32, 30, 30, 1);
+    background: rgba(32, 30, 30, 1);
+    padding: 13px 21px;
+    color: white;
+    font-size: 22.99px;
+    font-family: 'Recoleta';
+    line-height: 31.27px;
+}
 @media (max-width: 920px) {
     .menu-btn, .close-btn {
         display: block;
