@@ -339,59 +339,133 @@ header {
     line-height: 31.27px;
 }
 
-.nav-dots {
-    position: fixed;
-    top: 50%;
-    right: 5%;
-    transform: translateY(-50%);
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
+
+.matt_Dusing{
+    background: url('./assets/images/Matt_bg.png') no-repeat right ;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
-.nav-dot {
-    width: 12px;
-    height: 12px;
-    border: 2px solid #52616a;
-    border-radius: 50%;
-    list-style: none;
-    background: #c9d6de;
-    transition: all 0.3s;
+.matt_heading h2{
+    font-size: 70px;
+    font-family: 'Recoleta';
+    line-height: 95.2px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
 }
-.nav-dot:not(:last-of-type) {
-    margin-bottom: 20px;
+.matt_text{
+    font-size: 20px;
+    font-family: 'Overlock';
+    line-height: 28px;
+
+    letter-spacing: 1px;
+    color: rgba(70, 70, 70, 1);
+    ;
 }
-.nav-dot:hover, .nav-dot.is-active {
-    transform: scale(1.8);
-    background: transparent;
-}
-.section {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    height: 100vh;
-}
-.section:nth-of-type(1) {
-    background-color: #a5d296;
-}
-.section:nth-of-type(2) {
-    background-color: #47b8e0;
-}
-.section:nth-of-type(3) {
-    background-color: #ffc952;
-}
-.section:nth-of-type(4) {
-    background-color: #ff7473;
-}
-.section__heading {
-    margin: 0;
-    color: white;
-    font-size: 32px;
-    text-transform: capitalize;
+.matt_anchor .read_more a{
+    color: rgba(0, 0, 0, 1);
+    font-size: 22.99px;
+    font-family: 'Recoleta';
+    font-weight: 400;
+    text-decoration: none;
 }
 .matt_Dusing{
-    background: url('./assets/images/Matt_bg.png') no-repeat right;
+    position: relative;
+}
+.smallimg{
+    position: absolute;
+    bottom: 0px;
+}
+.Exhibition_section{
+    background-color: rgba(242, 242, 242, 0.85);   
+  padding-top:180px;
+  padding-bottom: 180px;
+    position: relative;
+}
+.Exhibition_section .left_image{
+    position: absolute;
+    top: 20px;
+    width: 35%;
+}
+.exhibition_heading h1{
+    font-size: 70px;
+    line-height: 72px;
+    font-family: 'Recoleta';
+}
+.exhibition_text{
+    font-size: 20px;
+    font: 'Overlock';
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.84);
 }
 
+.view_award button{
+    width: 260px;
+    background-color: rgba(32, 30, 30, 1);
+    color: white;
+    border: 2px solid rgba(32, 30, 30, 1);
+    height: 57px;
+    font-size: 22.99px;
+    font-family: 'Recoleta';
+    line-height: 31.27px;
+    font-weight: 400;
+}
+.legend_section{
+    margin-top: 180px;
+    padding-top: 120px;
+}
+.west_coffee h1{
+    font-size: 58px;
+    line-height: 67px;
+    font-family: 'Recoleta';
+    color: rgba(26, 24, 24, 1);
+}
+.west_coffee .legend_text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31.32px;
+    font-family: 'Inter';
+    color:rgba(26, 24, 24, 1);
+}
+.west_coffee .west_legends{
+    font-family: 'Overlock';
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+color: rgba(18, 18, 19, 1);}
+
+.Buy_now_btn button{
+    width: 171.94px;
+    height: 57px;
+    border: 2px solid rgba(32, 30, 30, 1);
+    background: rgba(32, 30, 30, 1);
+    color: white;
+    font-size: 22.99px;
+    line-height: 31.27px;
+    font-family: 'Recoleta';
+    font-weight: 400;
+}
+.left_section .buy_now{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.left_section .Usd_65 h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28.17px;
+    
+    color: rgba(26, 24, 24, 1);
+}
+.Usd_65 .free_shipping{
+    font-size: 15.17px;
+    line-height: 22.75px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: rgba(26, 24, 24, 1);
+}
 @media (max-width: 920px) {
     .menu-btn, .close-btn {
         display: block;
