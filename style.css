@@ -270,6 +270,22 @@ header {
   padding-top: 9px;
   height: 42px;
 }
+
+.explore_more button{
+    width: 230.94px;
+    height: 57px;
+    background-color: #201E1E;
+    border: 2px solid #201E1E;
+    padding: 13px 21px 13px 21px;
+    font-size: 22.99px;
+    line-height: 31.27px;
+    color: #ffffff;
+}
+.artistry_section .motion_text{
+ color: rgba(0, 0, 0, 0.78);
+ letter-spacing: 1px;
+   ;
+}
 @media (max-width: 920px) {
     .menu-btn, .close-btn {
         display: block;
