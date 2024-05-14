@@ -314,6 +314,12 @@ header {
 .artwork_Section{
     margin-top: 60px;
 }
+.motion_heading{
+    font-family: 'Recoleta' !important;
+}
+.motion_text{
+    font-family: 'Roboto',serif;
+}
 .mustang_section{
     margin-top: 35px;
 }
@@ -420,6 +426,33 @@ header {
     line-height: 28px;
     color: rgba(0, 0, 0, 0.84);
 }
+.polygons{
+    position: relative;
+}
+.artwork_Section .polygon_left::before{
+    content: '';
+    position: absolute;
+    width: 48%;
+    height: 2px;
+    background: rgba(217, 217, 217, 1);
+    top:50%;
+    right: 0px;
+
+
+
+}
+.artwork_Section .polygon_left::after{
+    content: '';
+    position: absolute;
+    width: 48%;
+    height: 2px;
+    background: rgba(217, 217, 217, 1);
+    top:50%;
+    left: 0px;
+
+
+
+}
 @media (max-width:600px){
     .header .menu .drawer.drawer-visible {
         width: 100%!important;
@@ -440,6 +473,7 @@ header {
     font-family: 'Recoleta';
     line-height: 31.27px;
     font-weight: 400;
+    transition: 0.5s all;
 }
 .legend_section{
     margin-top: 180px;
@@ -477,6 +511,7 @@ color: rgba(18, 18, 19, 1);}
     line-height: 31.27px;
     font-family: 'Recoleta';
     font-weight: 400;
+    transition: 0.5s all ;
 }
 .left_section .buy_now{
     display: flex;
@@ -678,7 +713,7 @@ right: 5% !important;
    flex-direction: column;
 } 
 .horse_slider_section{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .swiper-pagination-bullet {
     position: relative;
@@ -731,6 +766,14 @@ display: none;
     background-color: white;
     color: black;
 }
+.view_award button:hover{
+    background-color: white;
+    color: black;
+}
+.Buy_now_btn button:hover{
+    background-color: white;
+    color: black;
+}
 .show_arrow{
     display: none;
 
@@ -741,6 +784,19 @@ display: none;
 .explore_more button:hover .show_arrow{
     display: inline;
 }
+.view_award button:hover .hide_arrow{
+    display: none;
+}
+.view_award button:hover .show_arrow{
+    display: inline;
+}
+.Buy_now_btn button:hover .hide_arrow{
+    display: none;
+}
+.Buy_now_btn button:hover .show_arrow{
+    display: inline;
+}
+
 
 @media (max-width: 920px) {
     .menu-btn, .close-btn {
@@ -853,6 +909,9 @@ display: none;
             font-weight: 300;
             font-family: 'RecifeDisplay';
         }
+        .motion_heading{
+            font-family: 'Recoleta';
+        }
 
         .artistry_section .motion_text{
             color: rgba(0, 0, 0, 0.78);
@@ -883,7 +942,7 @@ display: none;
                 font-size: 16.4px;
                 line-height: 10.3px;
                 color: #ffffff;
-                font-family: 'Recolta';
+                font-family: 'Recoleta';
                 font-weight: 400;
             }
         
