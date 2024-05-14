@@ -22,6 +22,12 @@ body{
 
 	
 }
+@font-face {
+	font-family: 'Recoleta';
+	src: url('./assets/fonts/recoleta/Recoleta-RegularDEMO.otf');
+
+	
+}
 
 
 header {
@@ -281,11 +287,11 @@ header {
 }
 
 .explore_more button{
-    width: 230.94px;
+    
     height: 57px;
     background-color: #201E1E;
     border: 2px solid #201E1E;
-    padding: 13px 21px 13px 21px;
+    padding: 13px 4px 13px 4px;
     font-size: 22.99px;
     line-height: 31.27px;
     color: #ffffff;
@@ -293,7 +299,10 @@ header {
 .artistry_section .motion_text{
  color: rgba(0, 0, 0, 0.78);
  letter-spacing: 1px;
-   ;
+ line-height: 27.28px;
+ font-family: 'Recoleta';
+ font-weight: 400;
+ font-size: 16px;
 }
 .artistry_section .motion_heading{
     font-size: 51.62px;
@@ -536,6 +545,7 @@ color: rgba(18, 18, 19, 1);}
   }
   
   .footer_section{
+
     background-color: rgba(228, 228, 228, 1);
   }
   .footer_title h1{
@@ -543,9 +553,15 @@ color: rgba(18, 18, 19, 1);}
     line-height: 23.15px;
     font-family: 'Recoleta';
     font-weight: 400;
+    color: rgba(52, 52, 52, 1);
 
   }
+  .footer_content
+  {
+    padding-top: 80px;
+  }
   .footer_navs{
+
     gap: 120px;
   }
   .footer_navs ul li{
@@ -586,6 +602,111 @@ font-family: "Poppins-Regular";
     margin-right: 10px;
     margin-top: 0px;
   }
+
+  .border_footer{
+   
+    border: 1px dashed rgba(52, 52, 52, 1);
+    margin-bottom: 30px;
+  }
+  .footer_copywrite .copywrite_text{
+     color: rgba(11, 10, 10, 1);
+     font-size: 14px;
+     line-height: 16.94px;
+     font-family: 'Inter';
+  }
+  .copywrite_text .main_writer{
+    font-weight: 700;
+  }
+
+/* slidercss */
+
+.body{
+    position: relative;
+    height: 130vh;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide .sliderimg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination-bullet {
+    background-color: transparent !important;
+}
+.mySwiper{
+position: relative;
+}
+.swiper-pagination{
+   
+    position: absolute;
+    top:24% !important;
+
+right: 5% !important;
+}
+.swiper-pagination-bullet{
+    margin-top: 50px !important;
+    font-size: 30px;
+   
+}
+.swiper-slide .imagess{
+    width: 88%;
+    position: absolute;
+    top: 20%;
+    left: 0px;
+
+    
+
+}
+.swiper-slide {
+   justify-content: start;
+   flex-direction: column;
+} 
+.horse_slider_section{
+    margin-top: 80px;
+}
+.swiper-pagination-bullet {
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+
+.swiper-pagination-bullet-active::after .swiper-pagination-bullet{
+    margin-top: 80px !important;
+}
+
+.swiper-pagination-bullet-active .swiper-pagination-bullet {
+    margin-top: 80px !important;
+}
+
+.swiper-pagination-bullet-active::after .swiper-pagination-bullet  {
+    height: 80px; /* Adjust height as needed */
+    /* Adjust height as needed */
+    bottom: 20px; 
+   
+}
+
+.mobile_view{
+display: none;
+}
+
 @media (max-width: 920px) {
     .menu-btn, .close-btn {
         display: block;
@@ -655,7 +776,7 @@ font-family: "Poppins-Regular";
     }
 }
 
-@media (max-width: 767px) {
+@media  (max-width: 767px) {
     .header {
         padding: 10px 0;
     }
@@ -668,7 +789,197 @@ font-family: "Poppins-Regular";
     .search-menu h2 {
         font-size: 28px;
     }
+    .top_section{
+        display: none;
+    }
+    .mobile_view{
+        display: contents;
+    
+        }
+        .top_text{
+            background-color:rgba(84, 84, 84, 1);
+        }
+        .top_text .sign_up_text{
+            font-size:14px;
+            line-height: 27.28px;
+            font-family: 'Roboto',serif;
+            color:white;
+            margin-bottom: 0px;
+            padding: 6px;
+        }
+        .artistry_section .motion_heading {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 34.57px;
+            line-height: 42.94px;
+            font-weight: 300;
+            font-family: 'RecifeDisplay';
+        }
+
+        .artistry_section .motion_text{
+            color: rgba(0, 0, 0, 0.78);
+            letter-spacing: 1px;
+            line-height: 21.7px;
+            font-family: 'Roboto',serif;
+            font-weight: 300;
+            font-size: 13px;
+            text-align: center;
+            padding: 3px 10px;
+        margin-bottom: 10px;}
+.artistry_section 
+.matt_writer{
+    text-align: center;
+       font-family: 'Roboto',serif;
+       font-weight: 300;
+       font-size: 16px;
+       line-height: 27.28px;
+       color: rgba(0, 0, 0, 1);
+            }
+
+            .explore_more button {
+                width: 154px;
+                height: 40.54px;
+                background-color: #201E1E;
+                border: 2px solid #201E1E;
+                padding: 10px 4px 8px 7px;
+                font-size: 16.4px;
+                line-height: 10.3px;
+                color: #ffffff;
+                font-family: 'Recolta';
+                font-weight: 400;
+            }
+        
+            .explore_more{
+                margin-top: 6px;
+                text-align: center;
+            }
+            .explore_more img{
+                width: 12%;
+            }
+            .carousel_section{
+             margin-top: 35px;
+            }
+            .carousel-item .horse_images{ 
+                height: 293px;
+                object-fit: inherit;
+            }
+            .explore_heading h1 {
+                margin-top: -15px;
+                font-size: 37.94px;
+                font-family: 'RecifeDisplay';
+                font-weight: 300;
+                line-height: 41.82px;
+                letter-spacing: 0px;
+                color: rgba(0, 0, 0, 1);
+            }
+            .explore_heading .explore_text {
+                font-size: 11.66px;
+                line-height: 18.78px;
+                letter-spacing: 1.2px;
+                font-family: 'Roboto',serif;
+                letter-spacing: 0px;
+                color: rgba(0, 0, 0, 0.7);
+                text-align: center;
+                font-weight: 400;
+                padding: 5px 33px;
+            }
+            .desktop_Section{
+                display: none;
+            }
+
+           
+       .carousel-control-next-icon{
+   display: none;
+       }
+       .carousel-control-prev-icon {
+       display: none;
+    }
+  
+  .mobile_Section_carousel [data-bs-target]{
+    box-sizing: content-box;
+    flex: 1 0 auto;
+     margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 22px;
+    line-height: 30.55px;
+    font-family: 'Recoleta';
+    text-indent: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
 }
+.mobile_Section_carousel{
+    position: absolute;
+    bottom: -69px;
+}
+.custom_carousel .slider_image{
+
+    width: 100%;
+    height: 845px;
+}
+
+.mobile_Section_carousel .active::after{
+
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 5px;
+    bottom: 12px;
+
+   margin-left: 4px;
+    background-color: #000000;
+    border-radius: 10px;
+    
+}
+.mobile_wild h1{
+    font-size: 25px;
+    font-family: 'Recoleta';
+    line-height: 35.98px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+.mobile_wild .venture_text{
+    font-size: 12.48px;
+    line-height: 19.82px;
+    font-family: 'Recoleta';
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.78);
+}
+.mobile_explore_more{
+    text-align: center;
+}
+.mobile_explore_more button{
+    width: 183px;
+    height: 42.54px;
+    background-color: #201E1E;
+    border: 2px solid #201E1E;
+    padding: 10px 4px 8px 7px;
+    font-size: 16.88px;
+    line-height: 22.99px;
+    color: #ffffff;
+    font-family: 'Recolta';
+    font-weight: 400;
+}
+.mobile_explore_more button img{
+    width: 10%;
+}
+}
+
+
+  
+  
+
 
 /******************** Header CSS end ***********************/
 
