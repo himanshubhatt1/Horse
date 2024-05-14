@@ -287,7 +287,7 @@ header {
 }
 
 .explore_more button{
-    
+    width: 257px;
     height: 57px;
     background-color: #201E1E;
     border: 2px solid #201E1E;
@@ -295,6 +295,7 @@ header {
     font-size: 22.99px;
     line-height: 31.27px;
     color: #ffffff;
+    transition: 0.5s all;
 }
 .artistry_section .motion_text{
  color: rgba(0, 0, 0, 0.78);
@@ -654,7 +655,7 @@ position: relative;
 .swiper-pagination{
    
     position: absolute;
-    top:24% !important;
+    top:29% !important;
 
 right: 5% !important;
 }
@@ -702,9 +703,43 @@ right: 5% !important;
     bottom: 20px; 
    
 }
+.swiper-pagination-bullet-active {
+height: 124px;
+    background: #000;
+    position: relative;
+    
+    }
+    
+    .swiper-pagination-bullet-active:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 124px;
+background: #000;
+    border-radius: 4px;
+    left:15px;
+    transition: height 0.5s all;
+    }
+    .swiper-pagination-bullet:nth-child(3):after {
+        background-color: transparent;
+    }
 
 .mobile_view{
 display: none;
+}
+.explore_more button:hover{
+    background-color: white;
+    color: black;
+}
+.show_arrow{
+    display: none;
+
+}
+.explore_more button:hover .hide_arrow{
+    display: none;
+}
+.explore_more button:hover .show_arrow{
+    display: inline;
 }
 
 @media (max-width: 920px) {
@@ -758,7 +793,10 @@ display: none;
         display: flex;
         justify-content: center;
         margin: 5px 10px;
+        font-size: 25px;
         color: #fff;
+        font-family: 'Recoleta';
+        font-weight: 400;
     }
     .close-btn {
         background: #fff;
@@ -1001,7 +1039,9 @@ text-align: center;
 font-family: 'Overlock';
 }
 
-
+.mobile-logo{
+    width: 183px;
+}
 }
 
 
