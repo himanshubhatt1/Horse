@@ -974,6 +974,34 @@ display: none;
 .mobile_explore_more button img{
     width: 10%;
 }
+.matt_Dusing {
+    background: transparent !important;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.smallimg{
+    display: none;
+}
+.dusing_img img{
+    width: 130px;
+}
+.about_watt .right_arrow{
+width: 40px;
+}
+.matt_anchor{
+    align-items: center;
+    margin-top: -19px;
+}
+.matt_heading br{
+    display: none !important;
+}
+.matt_heading .matt_text{
+font-size: 18px;
+text-align: center;
+font-family: 'Overlock';
+}
+
+
 }
 
 
