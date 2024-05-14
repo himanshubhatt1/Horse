@@ -18,17 +18,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
-   
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 <!-- Overlock -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 <!-- slick_slider -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+
 <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
 
@@ -235,6 +234,19 @@
   </div>
 <hr class="m-0">
 </section>
+<!-- mobile-section -->
+<section class="top_section mobile_view">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center top_text">
+        <p class="sign_up_text">Matt Dusig Fine Art photography</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
 <!-- the_artistry_of_motion_section -->
   <section class="mt-lg-4">
   <div class="container artistry_section">
@@ -255,7 +267,7 @@
   </section>
 
   <!-- carousel-section -->
-  <section>
+  <section class="carousel_section">
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -264,19 +276,19 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./assets/images/1.png" class="img-fluid w-100" alt="first_image">
+          <img src="./assets/images/1.png" class="img-fluid w-100 horse_images" alt="first_image">
           <div class="carousel-caption d-none d-md-block">
          
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="./assets/images/2.png" class="img-fluid w-100" alt="second_image">
+          <img src="./assets/images/2.png" class="img-fluid w-100 horse_images"  alt="second_image">
           <div class="carousel-caption d-none d-md-block">
          
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/images/3.png" class="img-fluid w-100" alt="third Image">
+          <img src="./assets/images/3.png" class="img-fluid w-100 horse_images" alt="third Image">
           <div class="carousel-caption d-none d-md-block">
          
           </div>
@@ -294,14 +306,13 @@
   </section>
 
 
-
 <!-- Explore the Artwork_section -->
 <section class="artwork_Section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <div class="explore_heading">
-          <h1 class="text-center">Explore the Artwork</h1>
+          <h1 class="text-center">Explore the Artwork</h1>
           <p class="explore_text text-center">Unveiling Creativity, Inspiration, and Beauty in Every Stroke and Shade.</p>
         </div>
       </div>
@@ -309,100 +320,164 @@
   </div>
 </section>
 
-<section class="slider_section mt-5">
-  <div class='containers'>
-    <!--   <div class="intro">hello</div> -->
-      <div class='slides'>
-        <div class="slide">
-          <div class="container wild_mustang_section">
-            <div class="row align-items-center">
-              <div class="col-lg-10">
-                <h1 class="mustang_heading">Wild Mustang Series</h1>
-                <p class="mustang_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang <br>Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit <br>of these iconic creatures as they traverse their native landscapes. </p>
-              
-              </div>
-        
-              <div class="col-lg-2">
-                <div class="view_series d-flex ">
-                  <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt="" class="view_Series_slider mt-1"></span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="w-100"><img src="./assets/images/slider_1.png" alt="slider_1" class="img-fluid w-100"></p>
-        </div>
-        <div class="slide">
-          <div class="container wild_mustang_section">
-            <div class="row align-items-center">
-              <div class="col-lg-10">
-                <h1 class="mustang_heading">Wild Mustang Series</h1>
-                <p class="mustang_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang <br>Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit <br>of these iconic creatures as they traverse their native landscapes. </p>
-              
-              </div>
-        
-              <div class="col-lg-2">
-                <div class="view_series d-flex ">
-                  <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt="" class="view_Series_slider mt-1"></span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="w-100"><img src="./assets/images/slider_2.png" alt="slider_1" class="img-fluid w-100"></p>
-        </div>
-        <div class="slide">
-          <div class="container wild_mustang_section">
-            <div class="row align-items-center">
-              <div class="col-lg-10">
-                <h1 class="mustang_heading">Wild Mustang Series</h1>
-                <p class="mustang_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang <br>Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit <br>of these iconic creatures as they traverse their native landscapes. </p>
-              
-              </div>
-        
-              <div class="col-lg-2">
-                <div class="view_series d-flex ">
-                  <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt="" class="view_Series_slider mt-1"></span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="w-100"><img src="./assets/images/slider-3.png" alt="slider_1" class="img-fluid w-100"></p>
-        </div>
+<section class="horse_slider_section desktop_Section">
+  <div class="body">
+   <div class="swiper mySwiper">
+     <div class="swiper-wrapper">
+       <div class="swiper-slide">
+         <div class="container">
+           <div class="row align-items-center text-start">
+             <div class="col-lg-10">
+               <h1 class="motion_heading">Wild Mustang Series</h1>
+               <p class="motion_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit of these iconic creatures as they traverse their native landscapes.</p>
+            
+             </div>
        
+             <div class="col-lg-2">
+               <div class="explore_more">
+                 <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt=""></span></button>
+               </div>
+             </div>
+           </div>
+         </div>
+         
+         <div class="imagess">
+           
+           <img src="./assets/images/slider_1.png" alt="" class="img-fluid w-100 sliderimg">
+         
+         </div>
+       </div>
+       <div class="swiper-slide">
+         <div class="container">
+           <div class="row align-items-center text-start">
+             <div class="col-lg-10">
+               <h1 class="motion_heading">Los Angeles Series</h1>
+               <p class="motion_text">Soar above the City of Angels with this curated collection of fine art photographs, offering a captivating bird's-eye view of Los Angeles. These aerial images unravel the diverse tapestry of LA, from the iconic allure of Hollywood to the sun-drenched shores of Santa Monica, Venice, and Malibu.</p>
+            
+             </div>
+       
+             <div class="col-lg-2">
+               <div class="explore_more">
+                 <button>View Series<span class="ms-2"><img src="./assets/images/right_arrow.png" alt=""></span></button>
+               </div>
+             </div>
+           </div>
+         </div>
+         
+         <p class="imagess"><img src="./assets/images/slider_2.png" alt=""  class="img-fluid w-100 sliderimg"></p>
+       </div>
+       <div class="swiper-slide">
+         <div class="container">
+           <div class="row align-items-center text-start">
+             <div class="col-lg-10">
+               <h1 class="motion_heading">Hawaiian Series</h1>
+               <p class="motion_text">Embark on a visual journey through the enchanting Hawaiian archipelago with a curated collection of fine art photographs. Each piece is a heartfelt ode to the islands' diverse and dramatic landscapes, encapsulating the essence of paradise in every frame.</p>
+              
+             </div>
+       
+             <div class="col-lg-2">
+               <div class="explore_more">
+                 <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt=""></span></button>
+               </div>
+             </div>
+           </div>
+         </div>
+         
+         <p class="imagess"><img src="./assets/images/slider-3.png" alt=""  class="img-fluid w-100 sliderimg"></p>
+       </div>
+       
+     </div>
+     <div class="swiper-pagination"></div>
+   </div>
+  </div>
+ </section>
+ 
+
+<!-- mobile_section -->
+<section class="mobile_view">
+ <div class="container">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators mobile_Section_carousel">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">01</button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" >02</button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3 " >03</button>
+    </div>
+    <div class="carousel-inner">
+
+
+      <div class="carousel-item custom_carousel active mt-4 pt-3">
+        <div class="carosel_Content">
+          <div class="mobile_wild">
+            <h1>Wild Mustang Series</h1>
+            <p class="venture_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit of these iconic creatures as they traverse their native landscapes. </p>
+            <div class="mobile_explore_more">
+              <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt=""></span></button>
+            </div>
+          </div>
+        
+        </div>
+
+        <img src="./assets/images/Mobile_mustang.png " class="img-fluid slider_image mt-4 pt-2" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+       
+        </div>
+      </div>
+      <div class="carousel-item custom_carousel mt-4 pt-3">
+        <div class="carosel_Content">
+          <div class="mobile_wild">
+            <h1>Wild Mustang Series</h1>
+            <p class="venture_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit of these iconic creatures as they traverse their native landscapes. </p>
+            <div class="mobile_explore_more">
+              <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt=""></span></button>
+            </div>
+          </div>
+        
+        </div>
+
+        <img src="./assets/images/Mobile_mustang.png" class=" img-fluid slider_image mt-4 pt-2" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+      <div class="carousel-item custom_carousel mt-4 pt-3">
+        <div class="carosel_Content">
+          <div class="mobile_wild">
+            <h1>Wild Mustang Series</h1>
+            <p class="venture_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit of these iconic creatures as they traverse their native landscapes. </p>
+            <div class="mobile_explore_more">
+              <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt=""></span></button>
+            </div>
+          </div>
+        
+        </div>
+
+        <img src="./assets/images/Mobile_mustang.png" class=" w-100 img-fluid slider_image mt-4 pt-2" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ </div>
 </section>
 
 
 
-<!-- wild mustang Series -->
 
 
 
 
 
 
-<!-- 
-<section class="mustang_section">
-  <div class="container wild_mustang_section">
-    <div class="row align-items-center">
-      <div class="col-lg-10">
-        <h1 class="mustang_heading">Wild Mustang Series</h1>
-        <p class="mustang_text">Venture into the untamed beauty of the American wilderness with this exclusive Wild Mustang <br>Series. Each piece in this collection captures the raw energy, majestic grace, and enduring spirit <br>of these iconic creatures as they traverse their native landscapes. </p>
-      
-      </div>
 
-      <div class="col-lg-2">
-        <div class="view_series">
-          <button>View Series <span class="ms-2"><img src="./assets/images/right_arrow.png" alt=""></span></button>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section> -->
-
-  <!-- end_wild_mustang_series -->
-<!-- Swiper_slider -->
-  
 
 
   <!-- Matt Dusing slider -->
@@ -416,12 +491,14 @@
       <p class="matt_text">My skills extend beyond traditional photography, encompassing graphic design and <br> a deep understanding of the aesthetic and technical aspects of fine art.</p> 
       </div>
 
-      <div class="d-flex align-items-center  gap-5">
+      <div class="d-flex align-items-center mt-lg-1 mt-5  gap-5">
         <div>
-          <p><img src="./assets/images/Dusing.png" alt="Dusing" class="img-fluid"></p>
+          <p class="dusing_img"><img src="./assets/images/Dusing.png" alt="Dusing" class="img-fluid"></p>
         </div>
         <div  class="matt_anchor">
-          <p class="read_more "><a href="javascript:void(0)" class="me-3">Read More</a><img src="./assets/images/Right_arrow_circle.png" alt="right_arrow" class="img-fluid"></p>
+          <p class="read_more desktop_Section "><a href="javascript:void(0)" class="me-3">Read More</a><img src="./assets/images/Right_arrow_circle.png" alt="right_arrow" class="img-fluid"></p>
+          <p class="read_more mobile_view  about_watt "><a href="javascript:void(0)" class="me-3">About Matt</a><img src="./assets/images/Right_arrow_circle.png" alt="right_arrow" class="img-fluid right_arrow"></p>
+        
         </div>
       </div>
 
@@ -495,12 +572,13 @@
 
 <!-- footer_section -->
 
-<section class="footer_section">
-  <footer>
+<section class="footer_section ">
+  <footer class="footer_content">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row  justify-content-between">
           <div class="col-lg-12 text-center">
             <p><img src="./assets/images/main-logo.png" alt="main-logo" class="img-fluid"></p>
+            <hr class="border_footer">
           </div>
           <div class="col-lg-4">
             <div class="footer_title">
@@ -538,10 +616,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="footer_title">
+          <div class="col-lg-3">
+            <div class="footer_title ">
               <h1>Follow Us  On</h1>
-              <div class="d-flex  social_navs">
+              <div class="d-flex  social_navs justify-content-center">
                 <ul class="ps-0 list-unstyled">
                   <li><a href=""><span><img src="./assets/images/facebook.png" alt="facebook" class="img-fluid  images_gap "></span>Facebook</a></li>
                   <li><a href=""><span><img src="./assets/images/linkdin.png" alt="linkdin" class="img-fluid images_gap "></span>Linkedin</a></a></li>
@@ -559,78 +637,114 @@
         </div>
       </div>
   </footer>
+<hr>
+<div class="container">
+  <div class="row footer_copywrite">
+    <div class="col-lg-12 text-center">
+      <p class="copywrite_text">All Images © 2024 <span class="main_writer">Matt Dusig</span> Fine Art Photography, LLC</p>
+    </div>
+  </div>
+</div>
 </section>
 <!-- end-footer_section -->
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-  // debounce from underscore.js
-function debounce(func, wait, immediate) {
-	var timeout;
-	return function() {
-		var context = this, args = arguments;
-		var later = function() {
-			timeout = null;
-			if (!immediate) func.apply(context, args);
-		};
-		var callNow = immediate && !timeout;
-		clearTimeout(timeout);
-		timeout = setTimeout(later, wait);
-		if (callNow) func.apply(context, args);
-	};
-};
+  var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    pagination: {
+      el: ".swiper-pagination",
+  
+      clickable: true,
+      renderBullet: function (index, className) {
+            return '<span class="' + className + '">0' + (index + 1) + '</span>';
+        },
+    },
+  });
+</script>
+<script>
+  $(document).ready(function() {
 
-// use x and y mousewheel event data to navigate flickity
-function slick_handle_wheel_event(e, slick_instance, slick_is_animating) {
-  // do not trigger a slide change if another is being animated
-  if (!slick_is_animating) {
-    // pick the larger of the two delta magnitudes (x or y) to determine nav direction
-    var direction =
-      Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+var sync1 = $("#sync1");
+var sync2 = $("#sync2");
+var slidesPerPage = 3; //globaly define number of elements per page
+var syncedSecondary = true;
 
-    console.log("wheel scroll ", e.deltaX, e.deltaY, direction);
+sync1.owlCarousel({
+    items: 1,
+    slideSpeed: 2000,
+    nav: true,
+    autoplay: false, 
+    dots: true,
+    loop: true,
+    responsiveRefreshRate: 200,
+    navText: ['<svg width="100%" height="100%" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="100%" height="100%" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
+}).on('changed.owl.carousel', syncPosition);
 
-    if (direction > 0) {
-      // next slide
-      slick_instance.slick("slickNext");
-    } else {
-      // prev slide
-      slick_instance.slick("slickPrev");
+sync2
+    .on('initialized.owl.carousel', function() {
+        sync2.find(".owl-item").eq(0).addClass("current");
+    })
+    .owlCarousel({
+        items: slidesPerPage,
+        dots: true,
+        nav: true,
+        smartSpeed: 200,
+        slideSpeed: 500,
+        slideBy: 1, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
+        responsiveRefreshRate: 100
+    }).on('changed.owl.carousel', syncPosition2);
+
+function syncPosition(el) {
+    //if you set loop to false, you have to restore this next line
+    //var current = el.item.index;
+
+    //if you disable loop you have to comment this block
+    var count = el.item.count - 1;
+    var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+
+    if (current < 0) {
+        current = count;
     }
-  }
+    if (current > count) {
+        current = 0;
+    }
+
+    //end block
+
+    sync2
+        .find(".owl-item")
+        .removeClass("current")
+        .eq(current)
+        .addClass("current");
+    var onscreen = sync2.find('.owl-item.active').length - 1;
+    var start = sync2.find('.owl-item.active').first().index();
+    var end = sync2.find('.owl-item.active').last().index();
+
+    if (current > end) {
+        sync2.data('owl.carousel').to(current, 100, true);
+    }
+    if (current < start) {
+        sync2.data('owl.carousel').to(current - onscreen, 100, true);
+    }
 }
 
-// debounce the wheel event handling since trackpads can have a lot of inertia
-var slick_handle_wheel_event_debounced = debounce( 
-  slick_handle_wheel_event
-  , 100, true
-);
+function syncPosition2(el) {
+    if (syncedSecondary) {
+        var number = el.item.index;
+        sync1.data('owl.carousel').to(number, 100, true);
+    }
+}
 
-// init slider 
-const slick_2 = $(".slides");
-slick_2.slick({
-  dots: true,
-  vertical: true,
-  // verticalSwiping: true,
-  arrows: false
+sync2.on("click", ".owl-item", function(e) {
+    e.preventDefault();
+    var number = $(this).index();
+    sync1.data('owl.carousel').to(number, 300, true);
 });
-var slick_2_is_animating = false;
-
-slick_2.on("afterChange", function(index) {
-  console.log("Slide after change " + index);
-  slick_2_is_animating = false;
 });
-
-slick_2.on("beforeChange", function(index) {
-  console.log("Slide before change " + index);
-  slick_2_is_animating = true;
-});
-
-slick_2.on("wheel", function(e) {
-  slick_handle_wheel_event_debounced(e.originalEvent, slick_2, slick_2_is_animating);  
-});
-
 </script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="./script.js"></script>
 </body>
 </html>
