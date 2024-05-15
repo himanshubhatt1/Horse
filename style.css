@@ -306,6 +306,7 @@ header {
   font-weight: 300;
   font-family: "RecifeDisplay" !important ;
 }
+
 .artwork_Section {
   margin-top: 60px;
 }
@@ -403,8 +404,8 @@ header {
 }
 .Exhibition_section .left_image {
   position: absolute;
-  top: 20px;
-  width: 35%;
+ top: 30px;
+width: 500px;
 }
 .exhibition_heading h1 {
   font-size: 70px;
