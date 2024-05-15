@@ -440,6 +440,9 @@ width: 500px;
   top: 50%;
   left: 0px;
 }
+.swiper-pagination-bullet-active:nth-child(3):after{
+  background-color: transparent !important;
+}
 @media (max-width: 600px) {
   .header .menu .drawer.drawer-visible {
     width: 100% !important;
