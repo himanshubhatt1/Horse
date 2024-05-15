@@ -475,12 +475,14 @@ width: 500px;
   font-family: "Recoleta";
   color: rgba(26, 24, 24, 1);
 }
-.west_coffee .legend_text {
+
+.west_coffee .legends_text {
   font-weight: 600;
   font-size: 18px;
   line-height: 31.32px;
-  font-family: "Inter";
+  font-family: "Inter" !important;
   color: rgba(26, 24, 24, 1);
+  
 }
 .west_coffee .west_legends {
   font-family: "Overlock";
@@ -1111,6 +1113,7 @@ width: 500px;
     width: 130px;
   }
   .about_watt .right_arrow {
+    margin-top: -8px;
     width: 40px;
   }
   .matt_anchor {
