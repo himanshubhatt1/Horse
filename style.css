@@ -443,13 +443,35 @@ width: 500px;
 .swiper-pagination-bullet-active:nth-child(3):after{
   background-color: transparent !important;
 }
+.mobile_view{
+  display: none;
+}
 @media (max-width: 600px) {
+  .back-wrap{
+    display: none;
+}
+.Mustang_text p{
+  font-family: 'Overlock';
+  font-weight: 400;
+}
+br{
+  display: none;
+}
+.breadcrum-wrap{
+  justify-content: center !important;
+}
   .header .menu .drawer.drawer-visible {
     width: 100% !important;
     left: -600px;
   }
   .menu-btn {
     position: initial;
+  }
+  .mobile_view{
+    display: block;
+  }
+  .desktop_legend_section{
+    display: block !important;
   }
 }
 
@@ -1414,7 +1436,7 @@ width: 500px;
   .room-heading {
     font-size: 30px;
     line-height: 40.8px;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
   }
   .header .logo {
     margin-right: initial;
@@ -1422,4 +1444,7 @@ width: 500px;
   .contact-form {
     padding: 30px 0px;
   }
+}
+.desktop_legend_section{
+  display: none;
 }
