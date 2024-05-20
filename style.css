@@ -1416,6 +1416,7 @@ br{
   background: url('./assets/images/series-text-bg.png') no-repeat left 2.5px center,
   url('./assets/images/series-banner.svg') no-repeat;
   padding: 360px 0;
+  background-size: cover;
 }
 .series-banner-content{
   position: absolute;
@@ -1426,6 +1427,7 @@ br{
   text-align: center;
   width: 100%;
   max-width: 986px;
+
 }
 .series-banner-content h2{
   font-size: 75.96px;
