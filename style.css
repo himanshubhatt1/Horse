@@ -315,6 +315,7 @@ header {
 }
 .horse_slider_section .motion_text {
   font-family: "Roboto", serif;
+  max-width: 817px;
 }
 .mustang_section {
   margin-top: 35px;
@@ -440,9 +441,9 @@ width: 500px;
   top: 50%;
   left: 0px;
 }
-.swiper-pagination-bullet-active:nth-child(3):after{
+/* .swiper-pagination-bullet-active:nth-child(3):after{
   background-color: transparent !important;
-}
+} */
 .mobile_view{
   display: none;
 }
@@ -671,8 +672,10 @@ br{
 }
 
 .border_footer {
-  border: 1px dashed rgba(52, 52, 52, 1);
+  background: url('./assets/images/footer-line.svg') no-repeat;
   margin-bottom: 30px;
+  background-size: contain;
+  padding: 10px;
 }
 .footer_copywrite .copywrite_text {
   color: rgba(11, 10, 10, 1);
@@ -728,7 +731,7 @@ br{
   font-size: 30px;
 }
 .swiper-slide .imagess {
-  width: 88%;
+  width: 91%;
   position: absolute;
   top: 20%;
   left: 0px;
