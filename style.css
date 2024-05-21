@@ -1545,6 +1545,26 @@ br{
 .view_hide_section{
   display: none !important;
 }
+.right_about .as_seasoned{
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'Overlock';
+  letter-spacing: 1px;
+  color:rgba(0, 0, 0, 1);
+  padding-right:65px ;
+}
+.right_about .heading_dusing{
+  font-size: 51.62px;
+  line-height: 70.2px;
+  letter-spacing: 1px;
+  
+  font-family: 'Recoleta';
+  font-weight: 400;
+}
+.exhibi_img{
+  width: 315px;
+  height: 315px;
+}
 @media (max-width: 575px) {
   .mobile_exibhition_text {
     display: block;
