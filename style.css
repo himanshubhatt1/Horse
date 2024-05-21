@@ -1524,8 +1524,141 @@ br{
 .pollux-img-wrap img{
   object-fit: cover;
 }
+.mobile_exibhition_text {
+  display: none;
 
+}
+.desktop_hide{
+  display: none;
+}
+.mobile_exibhition_text .heading h1{
+  font-size: 30px;
+  font-family: "Recoleta";
+  line-height: 40.8px;
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+.mobile_views_echibi{
+  display: none;
+}
+.view_hide_section{
+  display: none !important;
+}
 @media (max-width: 575px) {
+  .mobile_exibhition_text {
+    display: block;
+  
+  }
+  .exhi-place-text {
+    margin-top: 12px;
+    font-size: 23px;
+    line-height: 31px;
+    font-family: "Recoleta";
+    color: #000000;
+    letter-spacing: 0px;
+    text-align: center;}
+  .view_hide_section{
+    display: block !important;
+  }
+  .desktop_hide{
+    display: block;
+  }
+  .exhi_place_section{
+    display: none;
+  }
+  .mobile_views_echibi{
+    display: block;
+  }
+  .photo_desktop{
+    display: none;
+  }
+  .mobile_exibhition_text{
+    padding-bottom: 50px;
+  }
+  .exhibi-heading {
+    font-size: 30px;
+    line-height: 40.8px;
+    font-family: "Recoleta";
+    color: #000000;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0px 0;
+  
+  }
+  .expo-art-img-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 5px;
+  
+  }
+  .art_shopping{
+    font-family: 'Recoleta';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31.28px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .pollux-img-wrap{
+    display: none;
+  }
+  .expo_width{
+    flex: 1;
+    width: 100%;
+    height: 385px;
+  }
+
+
+  .mobile_flex{
+    display: flex;
+    gap: 10px;
+    
+  }
+  .exhibi-inner-text {
+    margin-top: 23px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Recoleta";
+    color: #000000;
+    letter-spacing: 1px;
+}
+  .mobile_flex_width{
+    width: 170px;
+  }
+  .exhibi-banner-sec {
+    background: #EAEAEA;
+    padding: 45px 0;
+    padding-bottom: 90px;
+}
+.exhibi-img-sec{
+  margin-top: 40px;
+}
+.desktop_exhibi_section{
+  display: none;
+}
+  .mobile_exibhition_text .mainMatt{
+    font-size: 22px !important;
+    font-family: 'Roboto',serif;
+    margin-top: 10px !important;
+    line-height: 27.28px !important; 
+  }
+  .breadcrum-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+}
+  .mobile_exibhition_text .context{
+    font-size: 17px;
+    font-family: 'Overlock';
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1px;
+    
+  }
   .col-sm-8 {
     width: 66.66666667%;
   }
