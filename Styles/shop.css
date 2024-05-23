@@ -360,6 +360,8 @@ color: rgba(0, 0, 0, 1);
 }
 
 @media  screen and (max-width:551px){
+
+    
     .Wild_heading h1 {
         color: rgba(0, 0, 0, 1);
         font-family: "Recoleta";
@@ -549,6 +551,7 @@ color: rgba(0, 0, 0, 1);
     .mobile_bg{
         display: block;
     }
+    
 }
 
 .slick-slide{
