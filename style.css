@@ -917,6 +917,16 @@ header {
   font-weight: 400;
   color: #000000;
 }
+.experience-sec{
+  background: url('./assets/images/linee.svg') no-repeat ;
+  background-position: center 37%;
+  padding: 15px;
+  position: relative;
+}
+.experience-sec{
+padding-bottom: 130px !important;
+}
+
 .experi-text-bold{
   font-size: 16px;
   line-height: 21px;
@@ -926,6 +936,31 @@ header {
   color: #000000;
   margin-bottom: 10px;
 }
+.heading_icon_first{
+  position: absolute;
+  right: -102px;
+  top: 0px;
+}
+
+.heading_icon_third{
+  position: absolute;
+  right: -155px;
+  top: 0px;
+}
+.heading_icon_fourth{
+  position: absolute;
+  left: -120px;
+  top: 0px;
+}
+
+.experi_margin{
+  margin-top: -33px !important;
+}
+.heading_icon_second{
+  position: absolute;
+  left: -100px;
+  top: 0px;
+}
 .experi-text{
   font-size: 16px;
   line-height: 23px;
@@ -934,8 +969,11 @@ header {
   font-weight: 400;
   color: #000000;
 }
+.experi-card{
+  margin-top: 40px;
+}
 .experi-card-sec{
-  margin-top: 300px;
+  margin-top: 257px;
 }
 
 @media (max-width: 920px) {
