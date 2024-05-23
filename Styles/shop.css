@@ -550,3 +550,13 @@ color: rgba(0, 0, 0, 1);
         display: block;
     }
 }
+
+.slick-slide{
+    width: 100% !important;
+}
+.slick-slide{
+    left: 0px !important;
+}
+.slick-track{
+    width: 100% !important;
+}

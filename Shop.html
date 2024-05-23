@@ -32,6 +32,10 @@
 
   <link rel="stylesheet" href="./Styles/Collection.css">
   <link rel="stylesheet" href="./Styles/shop.css">
+
+  <!-- slider_links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
 </head>
 
 <body>
@@ -324,7 +328,7 @@
       <div class="row">
 
 
-        <div class="col-lg-6 mt-lg-4">
+         <div class="col-lg-6 mt-lg-4">
           <div class="d-flex gap-2 surreal_mobile">
             <div>
               <ul class="list-unstyled surreal_list">
@@ -350,6 +354,14 @@
             </div>
           </div>
         </div>
+        
+
+
+
+
+
+
+
 
         <div class="col-lg-6  mt-lg-4 sunset_Col">
           <div class="sunset_encounter">
@@ -738,6 +750,30 @@
 
   </script>
 
+
+
+<script>
+   $('.slider-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   asNavFor: '.slider-nav'
+ });
+ $('.slider-nav').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   asNavFor: '.slider-for',
+   dots: true,
+   focusOnSelect: true
+ });
+
+ $('a[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('.slider-nav').slick('slickGoTo', slideno - 1);
+ });
+</script>
 
   <script src="./script.js"></script>
 </body>
