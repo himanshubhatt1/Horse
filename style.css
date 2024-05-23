@@ -506,7 +506,17 @@ header {
 .mobile_view {
   display: none;
 }
+.mobile-view_dusing{
+  display: none;
+}
 @media (max-width: 600px) {
+  .mobile-view_dusing{
+    display: block;
+  }
+  .desktop_dusing{
+
+    display: none !important;
+}
   .back-wrap {
     display: none;
   }
@@ -975,6 +985,9 @@ padding-bottom: 130px !important;
 .experi-card-sec{
   margin-top: 257px;
 }
+.desktop_cards{
+  display: none;
+}
 
 @media (max-width: 920px) {
   .menu-btn,
@@ -1091,6 +1104,96 @@ padding-bottom: 130px !important;
 }
 
 @media (max-width: 767px) {
+.uncle_image{
+  display: none;
+}
+.experience-sec {
+  padding-bottom: 63px !important;
+}
+  .matt_text_dusing{
+    font-size: 22px;
+    font-family: 'Roboto',serif;
+    line-height: 27.28px;
+    font-weight: 300;
+    letter-spacing: 0px;
+  }
+
+.About_the_artist{
+  font-family: 'Recoleta';
+  font-size: 30px;
+  line-height: 40.8px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.classs_hide{
+  display: none;
+}
+.innovated_title h1{
+  font-family: 'Recoleta';
+  font-weight: 400;
+  font-size: 26.62px;
+  line-height: 42.7px;
+  letter-spacing: 2px;
+  
+}
+.data_los_angles p{
+font-family: 'Overlock';
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 1px;
+}
+.main_content{
+  font-family: 'Overlock';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+.desktop_cards{
+  display: block;
+}
+.innovated_title p{
+  font-family: 'Recoleta';
+  font-weight: 400;
+  font-size: 18.62px;
+  line-height: 29.87px;
+  letter-spacing: 2px;
+
+}
+.innovate_card{
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.experience-sec {
+  background: rgba(233, 233, 233, 1);
+
+  }
+  .mobile_background{
+    background-color: white !important;
+  }
+
+.experience-sec h1 {
+  font-size: 30.62px;
+  line-height: 40.2px;
+  letter-spacing: 1px;
+  font-family: "Recoleta";
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+
+  .right_about .as_seasoned {
+    text-align: center;
+    font-size: 17px !important;
+    line-height: 23px !important;
+    font-family: "Overlock" !important;
+    letter-spacing: 1px !important;
+    color: rgba(0, 0, 0, 1) !important;
+    padding-right: 12px !important;
+  }
   .header {
     padding: 10px 0;
     padding-right: 5px;
@@ -1841,7 +1944,7 @@ padding-bottom: 130px !important;
   }
   .exhibi-banner-sec {
     background: #eaeaea;
-    padding: 45px 0;
+    padding: 25px 0;
     padding-bottom: 90px;
   }
   .exhibi-img-sec {
