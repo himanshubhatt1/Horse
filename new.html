@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail:hover, .thumbnail.active {
+    border-color: #007BFF;
+}
+
+.main-image img {
+    width: 500px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="thumbnails">
+            <img src="thumb1.jpg" alt="Thumbnail 1" class="thumbnail">
+            <img src="thumb2.jpg" alt="Thumbnail 2" class="thumbnail">
+            <img src="thumb3.jpg" alt="Thumbnail 3" class="thumbnail">
+            <img src="thumb4.jpg" alt="Thumbnail 4" class="thumbnail">
+        </div>
+        <div class="main-image">
+            <img src="./assets/images/" alt="Main Image" id="main-image">
+        </div>
+        <div class="controls">
+            <button onclick="viewInYourRoom()">View in Your Room</button>
+            <button onclick="clickToEnlarge()">Click to Enlarge</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    const mainImage = document.getElementById('main-image');
+
+    thumbnails.forEach((thumbnail, index) => {
+        thumbnail.addEventListener('click', () => {
+            // Remove active class from all thumbnails
+            thumbnails.forEach(thumb => thumb.classList.remove('active'));
+            // Add active class to the clicked thumbnail
+            thumbnail.classList.add('active');
+            // Change the main image
+            mainImage.src = `image${index + 1}.jpg`;
+        });
+    });
+});
+
+function viewInYourRoom() {
+    alert('View in Your Room feature is not implemented yet.');
+}
+
+function clickToEnlarge() {
+    alert('Click to Enlarge feature is not implemented yet.');
+}
+
+    </script>
+</body>
+</html>
+
+</body>
+</html>
