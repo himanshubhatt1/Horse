@@ -554,12 +554,20 @@ color: rgba(0, 0, 0, 1);
     
 }
 
-.slick-slide{
-    width: 100% !important;
-}
-.slick-slide{
-    left: 0px !important;
-}
-.slick-track{
-    width: 100% !important;
-}
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+  .splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .splide__slide {
+    opacity: 0.6;
+  }
+  
+  
+  .splide__slide.is-active {
+    opacity: 1;
+  }

@@ -9,6 +9,7 @@
   <!-- roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
     rel="stylesheet">
@@ -20,7 +21,12 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <!-- -overlock -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/themes/splide-skyblue.min.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link
     href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -325,10 +331,66 @@
   <section class="surreal_sunset_section">
     <div class="container">
 
-      <div class="row">
+      <d class="row">
+
+<div class="col-lg-6">
+  <div id="main-slider" class="splide ">
+  <div>
+    <div>
+      <ul id="thumbnails" class="">
+        <li class="thumbnail d-inline-block">
+           <p> <img src="./assets/images/Surreal_1.png" alt="front_image" class="img-fluid" /></p>
+        </li>
+        <li class="thumbnail">
+           <p> <img src="./assets/images/Surreal_1.png" alt="front_image" class="img-fluid" /></p>
+        </li>
+        <li class="thumbnail">
+           <p> <img src="./assets/images/Surreal_1.png" alt="front_image" class="img-fluid" /></p>
+        </li>
+        <li class="thumbnail">
+           <p> <img src="./assets/images/Surreal_1.png" alt="front_image" class="img-fluid " /></p>
+        </li>
+        <li class="thumbnail">
+           <p> <img src="./assets/images/Surreal_1.png" alt="front_image" class="img-fluid " /></p>
+        </li>
+        
+    
+    </ul>
+    </div>
+    <div class="splide__track left_section">
+     
+        <ul class="splide__list text-center">
+            <li class="splide__slide">
+              <p><img src="./assets/images/surreal_main.png" class="img-fluid" alt="product" /></p>
+            </li>
+            <li class="splide__slide">
+              <img src="./assets/images/surreal_main.png" class="img-fluid" alt="product" />
+            </li>
+            <li class="splide__slide">
+              <img src="./assets/images/surreal_main.png" class="img-fluid horse_height" alt="product" />
+            </li>
+        
+            <li class="splide__slide">
+              <img src="./assets/images/surreal_main.png" class="img-fluid horse_height" alt="product" />
+            </li>
+        
+            <li class="splide__slide">
+              <img src="./assets/images/surreal_main.png" class="img-fluid horse_height" alt="product" />
+            </li>
+        
+        </ul>
+    </div>
 
 
-         <div class="col-lg-6 mt-lg-4">
+  </div>
+
+  </div>
+
+
+
+</div>
+
+         <!-- <div class="col-lg-6 mt-lg-4">
           <div class="d-flex gap-2 surreal_mobile">
             <div>
               <ul class="list-unstyled surreal_list">
@@ -354,7 +416,7 @@
             </div>
           </div>
         </div>
-        
+         -->
 
 
 
@@ -753,27 +815,51 @@
 
 
 <script>
-   $('.slider-for').slick({
-   slidesToShow: 1,
-   slidesToScroll: 1,
-   arrows: false,
-   fade: true,
-   asNavFor: '.slider-nav'
- });
- $('.slider-nav').slick({
-   slidesToShow: 3,
-   slidesToScroll: 1,
-   asNavFor: '.slider-for',
-   dots: true,
-   focusOnSelect: true
- });
+ 
+        var splide = new Splide('#main-slider', {
+            pagination: false,
+        });
 
- $('a[data-slide]').click(function(e) {
-   e.preventDefault();
-   var slideno = $(this).data('slide');
-   $('.slider-nav').slick('slickGoTo', slideno - 1);
- });
+
+        var thumbnails = document.getElementsByClassName('thumbnail');
+        var current;
+
+
+        for (var i = 0; i < thumbnails.length; i++) {
+            initThumbnail(thumbnails[i], i);
+        }
+
+
+        function initThumbnail(thumbnail, index) {
+            thumbnail.addEventListener('click', function () {
+                splide.go(index);
+            });
+        }
+
+
+        splide.on('mounted move', function () {
+            var thumbnail = thumbnails[splide.index];
+
+
+            if (thumbnail) {
+                if (current) {
+                    current.classList.remove('is-active');
+                }
+
+
+                thumbnail.classList.add('is-active');
+                current = thumbnail;
+            }
+        });
+
+
+        splide.mount();
+
+  
 </script>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
 
   <script src="./script.js"></script>
 </body>
