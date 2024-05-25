@@ -140,6 +140,10 @@
 .checked {
   border: 2px solid black !important;
 }
+.checked input{
+    display: block;
+    margin-left: auto;
+}
 .box_container {
   margin-top: -38px;
 }
@@ -150,6 +154,7 @@
   width: 13.5px;
   border: 1px solid black;
   height: 13.5px;
+  display: none;
 }
 .form-check-input:checked {
   background-color: black;
