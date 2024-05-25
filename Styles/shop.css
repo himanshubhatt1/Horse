@@ -1,623 +1,598 @@
 @font-face {
-    font-family: "Poppins-Regular";
-    src: url("../assets/fonts/Poppins-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Poppins-Medium";
-    src: url("../assets/fonts/Poppins-Medium.ttf");
-  }
-  @font-face {
-    font-family: "RecifeDisplay";
-    src: url("../assets/fonts/recife/RecifeDisplay-Light.ttf");
-  }
-  @font-face {
-    font-family: "Recoleta";
-    src: url("../assets/fonts/recoleta/Recoleta-RegularDEMO.otf");
-  }
-
-
-  .back-wrap .back_text{
-    color: black !important;
-  }
-  .breadcrum-wrap span:first-of-type {
-    opacity: 100%;
+  font-family: "Poppins-Regular";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
 }
-.Wild_heading h1{
-    color: rgba(0, 0, 0, 1);
-    font-family: "Recoleta";
-    font-size: 45px;
-    line-height: 61.2px;
-    font-weight: 400;
-    letter-spacing: -2px;
-
-
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../assets/fonts/Poppins-Medium.ttf");
 }
-.breadcrum-wrap{
-    width: 810px;
-    padding-top: 35px;
+@font-face {
+  font-family: "RecifeDisplay";
+  src: url("../assets/fonts/recife/RecifeDisplay-Light.ttf");
 }
-.breadcrumb-sec{
-    background-color: white;
-}
-.image_width{
-    width: 124px;
-    height:  121.72px;
-}
-.horse_height{
-    height: 641px;
-}
-.camera_position{
-position: absolute;
-top: 20px;
-right: 20px;
-}
-.camera_width{
-    width: 50px;
-}
-.view_enlarge .two_text_content{
-    font-family: "Recoleta";
-    font-weight: 400;
-    font-size: 14.88px;
-    line-height: 20.23px;
-    letter-spacing: 2px;
-}
-.view_enlarge{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.width_vector_1{
-    width: 24.75px;
-}
-.width_vector_2{
-    width: 23.2px;
-}
-.sunset_encounter .sunset_heading{
-    font-family: "Recoleta";
-    font-weight: 400;
-    font-size: 40.1px;
-    line-height: 54.54px;
-    letter-spacing: -2px;
-    color: rgba(10, 9, 9, 1);
-}
-.calender{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    gap: 40px;
-    margin-top: 25px;
-    
-}
-.calender .calender_text{
-      font-size: 19px;
-      font-family: "Recoleta";
-      line-height: 25.84px;
-      color: rgba(10, 9, 9, 1);
-
-
-}
-.calender .calender_text_1{
-      font-size: 19px;
-      font-family: "Recoleta";
-      line-height: 25.84px;
-      color: rgba(10, 9, 9, 1);
-
-      letter-spacing: -1px;
-
-
-
-}
-.sunset_Col{
-    padding-right: 89px !important; 
-}
-.calender_icon{
-    width: 19px;
-    height: 18px;
-    margin-top: -5px;
-}
-.main_content_sunset p{
-    font-family: 'Overlock';
-    font-weight: 400;
-    font-size: 20px;
-  
-    line-height: 28px;
-    letter-spacing: 1px;
-    color: rgba(10, 9, 9, 1);
-}
-.sunset_encounter{
-    padding-bottom: 25px;
+@font-face {
+  font-family: "Recoleta";
+  src: url("../assets/fonts/recoleta/Recoleta-RegularDEMO.otf");
 }
 
-.choose_Size .size_heading{
-    font-family: 'Recoleta';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 34px;
-    letter-spacing: 2px;
+.back-wrap .back_text {
+  color: black !important;
 }
-.choose_Size{
-    margin-top: 20px;
+.breadcrum-wrap span:first-of-type {
+  opacity: 100%;
+}
+.Wild_heading h1 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Recoleta";
+  font-size: 45px;
+  line-height: 61.2px;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+.breadcrum-wrap {
+  width: 810px;
+  padding-top: 35px;
+}
+.breadcrumb-sec {
+  background-color: white;
+}
+.image_width {
+  width: 124px;
+  height: 121.72px;
+}
+.horse_height {
+  height: 641px;
+}
+.camera_position {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.camera_width {
+  width: 50px;
+}
+.view_enlarge .two_text_content {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 14.88px;
+  line-height: 20.23px;
+  letter-spacing: 2px;
+}
+.view_enlarge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.width_vector_1 {
+  width: 24.75px;
+}
+.width_vector_2 {
+  width: 23.2px;
+}
+.sunset_encounter .sunset_heading {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 40.1px;
+  line-height: 54.54px;
+  letter-spacing: -2px;
+  color: rgba(10, 9, 9, 1);
+}
+.calender {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+  margin-top: 25px;
+}
+.calender .calender_text {
+  font-size: 19px;
+  font-family: "Recoleta";
+  line-height: 25.84px;
+  color: rgba(10, 9, 9, 1);
+}
+.calender .calender_text_1 {
+  font-size: 19px;
+  font-family: "Recoleta";
+  line-height: 25.84px;
+  color: rgba(10, 9, 9, 1);
+
+  letter-spacing: -1px;
+}
+.sunset_Col {
+  padding-right: 89px !important;
+}
+.calender_icon {
+  width: 19px;
+  height: 18px;
+  margin-top: -5px;
+}
+.main_content_sunset p {
+  font-family: "Overlock";
+  font-weight: 400;
+  font-size: 20px;
+
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: rgba(10, 9, 9, 1);
+}
+.sunset_encounter {
+  padding-bottom: 25px;
+}
+
+.choose_Size .size_heading {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 2px;
+}
+.choose_Size {
+  margin-top: 20px;
 }
 .first_size {
-    width: 57px;
-    height: 64px;
-    border: 1px solid rgba(174, 174, 174, 1);
-    transition: border-color 0.3s ease;
+  width: 57px;
+  height: 64px;
+  border: 1px solid rgba(174, 174, 174, 1);
+  transition: border-color 0.3s ease;
 }
 
 .checked {
-    border: 2px solid black !important;
+  border: 2px solid black !important;
 }
-.box_container{
-    margin-top: -38px;
+.box_container {
+  margin-top: -38px;
 }
 
-.inbox_checked{
-    background-color: black;
-    border-radius: 100% !important;
-    width: 13.5px;
-    border: 1px solid black;
-    height: 13.5px;
-
+.inbox_checked {
+  background-color: black;
+  border-radius: 100% !important;
+  width: 13.5px;
+  border: 1px solid black;
+  height: 13.5px;
 }
 .form-check-input:checked {
-    background-color: black ;
-    border-color: #000000;
+  background-color: black;
+  border-color: #000000;
 }
 .form-check-input:focus {
-    border-color: black;
-    outline: 0;
-    box-shadow:none;
-
+  border-color: black;
+  outline: 0;
+  box-shadow: none;
 }
-.second_box_height{
-    width: 59px;
-    height: 81px;
-    border: 1 px rgba(255, 255, 255, 1);
+.sticky-col{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
-.third_box{
-    width: 73px;
-    height: 106px;
-    border: 1 px rgba(255, 255, 255, 1);
+.second_box_height {
+  width: 59px;
+  height: 81px;
+  border: 1 px rgba(255, 255, 255, 1);
 }
-.fourth_box{
-    width: 95px;
-    height: 137px;
-    border: 1 px rgba(255, 255, 255, 1);
+.third_box {
+  width: 73px;
+  height: 106px;
+  border: 1 px rgba(255, 255, 255, 1);
 }
-.fifth_box{
-    width: 109px;
-    height: 153px;
-    border: 1 px rgba(255, 255, 255, 1);
+.fourth_box {
+  width: 95px;
+  height: 137px;
+  border: 1 px rgba(255, 255, 255, 1);
 }
-.already_checked{
-    border: 2px solid black;
+.fifth_box {
+  width: 109px;
+  height: 153px;
+  border: 1 px rgba(255, 255, 255, 1);
 }
-.size_text{
-    margin-top: 20px;
+.already_checked {
+  border: 2px solid black;
 }
-.frame_box{
-    margin-top: 20px;
-
+.size_text {
+  margin-top: 20px;
 }
-.size_text p{
-    font-family: 'Recoleta';
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16.9px;
-    letter-spacing: 2px;
-    color: rgba(0, 0, 0, 1);
+.frame_box {
+  margin-top: 20px;
 }
-.frame_box .frame_one .Unframed{
+.size_text p {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16.9px;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 1);
+}
+.frame_box .frame_one .Unframed {
   width: 93px;
   height: 53px;
   border: 1px solid rgba(174, 174, 174, 1);
 }
-.frame_box .frame_one .white_frame{
-    width: 93px; /* Adjust the width as needed */
-    height: 53px; /* Adjust the height as needed */
-    border: 1px solid rgba(174, 174, 174, 1); /* Border color of the outer box */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.frame_box .frame_one .white_frame {
+  width: 93px; /* Adjust the width as needed */
+  height: 53px; /* Adjust the height as needed */
+  border: 1px solid rgba(174, 174, 174, 1); /* Border color of the outer box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.inner-box{
-    width: 78px;
-    height:38px;
-    background-color: rgba(200, 200, 200, 1); 
+.inner-box {
+  width: 78px;
+  height: 38px;
+  background-color: rgba(200, 200, 200, 1);
 }
-.frame_box .frame_one .black_frame{
+.frame_box .frame_one .black_frame {
   width: 93px;
 
   height: 53px;
   border: 7px solid rgba(98, 98, 98, 1);
 }
-.frame_box .frame_one .Plexi{
+.frame_box .frame_one .Plexi {
   width: 93px;
   height: 53px;
   border: 1px solid rgba(174, 174, 174, 1);
 }
-.frame_box .frame_one .Hd_metal{
+.frame_box .frame_one .Hd_metal {
   width: 93px;
   height: 53px;
   border: 1px solid rgba(174, 174, 174, 1);
 }
 
-.frame_one{
-    text-align: center;
+.frame_one {
+  text-align: center;
 }
-.frame_text{
-    font-size: 13px;
-    font-family: 'Recoleta';
-    font-weight: 400;
-    line-height: 16.9px;
-    letter-spacing: 2px;
+.frame_text {
+  font-size: 13px;
+  font-family: "Recoleta";
+  font-weight: 400;
+  line-height: 16.9px;
+  letter-spacing: 2px;
 }
 
+.choose_frame .size_heading {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+.choose_border .size_heading {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.choose_glass .size_heading {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 2px;
+  margin-top: 21px;
+}
+.border_one .full_bleed {
+  width: 93px;
+  height: 53px;
+  background-color: rgba(238, 238, 238, 1);
+  border: 3px solid rgba(174, 174, 174, 1);
+}
+.border_two .liftmat {
+  width: 93px;
+  height: 53px;
+  border: 3px solid rgba(174, 174, 174, 1);
+  padding: 3px;
+}
+.lift_box {
+  width: 82px;
+  height: 43px;
+  background-color: rgba(238, 238, 238, 1);
+}
+.glass_two .plexi {
+  width: 163px;
+  height: 53px;
+  background-color: rgba(238, 238, 238, 1);
+}
+.add_to_cart .button button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  width: 166px;
+  height: 57px;
+  font-size: 22.99px;
+  line-height: 31.27px;
+  font-family: "Recoleta";
+  font-weight: 400;
+}
+.total_text {
+  font-size: 43px;
+  line-height: 55.9px;
+  font-weight: 400;
+  font-family: "Recoleta";
+  color: rgba(0, 0, 0, 1);
+}
+.prequalify .content {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26.35px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 1);
+}
+.content .prequalify_text {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.may_section .you_may_also h1 {
+  font-size: 70px;
+  line-height: 95.2px;
+  font-family: "Recoleta";
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+.may_section {
+  margin-top: 60px;
+}
+.you_may_also .venture_content {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 1.7px;
+  color: rgba(0, 0, 0, 0.78);
+}
+.may_image {
+  margin-top: 50px;
+}
+.mobile_bg {
+  display: none;
+}
 
-.choose_frame .size_heading{
-    font-family: 'Recoleta';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 34px;
-    letter-spacing: 2px;
-    margin-top: 30px;
-}
-.choose_border .size_heading{
-    font-family: 'Recoleta';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 34px;
-    letter-spacing: 2px;
-    margin-top: 25px;
-}
-.choose_glass .size_heading{
-    font-family: 'Recoleta';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 34px;
-    letter-spacing: 2px;
-    margin-top: 21px;
-}
-.border_one .full_bleed{
-    width: 93px;
-    height: 53px;
-    background-color: rgba(238, 238, 238, 1);
-    border: 3px solid rgba(174, 174, 174, 1);
-}
-.border_two .liftmat{
-    width: 93px;
-    height: 53px;
-    border: 3px solid rgba(174, 174, 174, 1);
-    padding: 3px;
-}
-.lift_box{
-    width: 82px;
-    height:43px;
-    background-color:rgba(238, 238, 238, 1)
-}
-.glass_two .plexi{
-    width: 163px;
-    height: 53px;
-    background-color: rgba(238, 238, 238, 1);
-}
-.add_to_cart .button button{
-    background-color: #000000;
-    color: white;
-    border: none;
-    width: 166px;
-    height: 57px;
-    font-size: 22.99px;
-    line-height: 31.27px;
-    font-family: 'Recoleta';
-    font-weight: 400;
-}
-.total_text{
-    font-size: 43px;
-    line-height: 55.9px;
-    font-weight: 400;
-    font-family: 'Recoleta';
+@media screen and (max-width: 551px) {
+  .Wild_heading h1 {
     color: rgba(0, 0, 0, 1);
+    font-family: "Recoleta";
+    font-size: 30px;
+    line-height: 40.8px;
+    font-weight: 400;
+    letter-spacing: 0px;
+  }
+  .breadcrum-wrap {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .back-wrap {
+    display: block;
+  }
+  .breadcrum-wrap {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .surreal_mobile {
+    flex-direction: column-reverse;
+  }
+  .horse_height {
+    width: 100%;
+    height: 354px;
+  }
+  .view_enlarge {
+    display: none;
+  }
+  .surreal_list li {
+    display: inline;
+  }
+  .image_width {
+    width: 72px;
+    height: 78px;
+  }
+  .sunset_Col {
+    padding-right: 12px !important;
+  }
+  .sunset_encounter .sunset_heading {
+    font-family: "Recoleta";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.8px;
+    letter-spacing: 0px;
+  }
+  .camera_width {
+    width: 33px !important;
+    height: 32px !important;
+  }
 
-}
-.prequalify  .content{
-    font-family: 'Inter';
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 26.35px;
-    letter-spacing: 1px;
-    color: rgba(0, 0, 0, 1);
-}
-.content .prequalify_text{
-    font-weight: 700;
-    text-decoration: underline;
-}
-.may_section .you_may_also h1{
-font-size: 70px;
-line-height: 95.2px;
-font-family: 'Recoleta';
-font-weight: 400;
-color: rgba(0, 0, 0, 1);
-}
-.may_section{
-    margin-top: 60px;
-}
-.you_may_also .venture_content{
-    font-family: 'Recoleta';
+  .calender {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: center;
+    gap: 0px;
+    margin-top: 19px;
+  }
+  .main_content_sunset p {
+    font-family: "Overlock";
     font-weight: 400;
     font-size: 17px;
-    line-height: 27px;
-    letter-spacing: 1.7px;
-    color: rgba(0, 0, 0, 0.78);
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: rgba(10, 9, 9, 1);
+  }
+  .first_size {
+    flex-grow: 1;
+    width: 39.2px;
+    height: 44.02px;
+    border-width: 0.69px;
+    transition: border-color 0.3s ease;
+  }
+  .second_box_height {
+    flex-grow: 1;
+    width: 40.58px;
+    height: 55.71px;
+    margin-left: -6px;
+    border-width: 0.69px;
+  }
 
-}
-.may_image{
-    margin-top: 50px;
-}
-.mobile_bg{
+  .third_box {
+    flex-grow: 1;
+    width: 50.21px;
+    height: 72.9px;
+    margin-left: -9px;
+    border-width: 0.69px;
+  }
+  .fourth_box {
+    flex-grow: 1;
+    width: 65.34px;
+    height: 94.22px;
+    margin-left: -9px;
+    border-width: 0.69px;
+  }
+
+  .fifth_box {
+    flex-grow: 1;
+    width: 74.96px;
+    height: 105.23px;
+    border-width: 0.69px;
+  }
+  .size_text p {
+    text-align: center;
+    font-family: "Recoleta";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .box_container {
+    margin-top: -24px;
+  }
+  .frame_box .frame_one .Unframed {
+    width: 64px;
+    height: 36px;
+    border: 0.69px solid rgba(174, 174, 174, 1);
+  }
+  .frame_box .frame_one .white_frame {
+    width: 64px;
+    height: 36px;
+    border: 0.69px solid rgba(174, 174, 174, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame_box .frame_one .black_frame {
+    width: 64.09px;
+    height: 36.52px;
+    border: 4.82px solid rgba(98, 98, 98, 1);
+  }
+  .frame_box .frame_one .Plexi {
+    width: 64.09px;
+    height: 36.52px;
+    border: 0.69px solid rgba(174, 174, 174, 1);
+  }
+  .frame_box .frame_one .Hd_metal {
+    width: 64.09px;
+    height: 36.52px;
+    border: 0.69px solid rgba(174, 174, 174, 1);
+  }
+  .frame_box {
+    gap: 7px;
+  }
+  .inner-box {
+    width: 52px;
+    height: 27px;
+    background-color: rgba(200, 200, 200, 1);
+  }
+  .frame_text {
+    margin-top: 7px;
+    font-size: 8.96px;
+    font-family: "Recoleta";
+    font-weight: 400;
+    line-height: 11.65px;
+    letter-spacing: 2px;
+  }
+  .choose_border .size_heading {
+    font-family: "Recoleta";
+
+    margin-top: 0px;
+  }
+  .border_text {
+    font-size: 13px;
+  }
+  .add_to_cart {
+    flex-direction: column-reverse;
+  }
+  .prequalify .content {
+    margin-top: 20px;
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22.35px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .desktop_bg {
     display: none;
-}
-
-@media  screen and (max-width:551px){
-
-    
-    .Wild_heading h1 {
-        color: rgba(0, 0, 0, 1);
-        font-family: "Recoleta";
-        font-size: 30px;
-        line-height: 40.8px;
-        font-weight: 400;
-        letter-spacing: 0px;
-    
-    }
-    .breadcrum-wrap {
-        width: 100%;
-        padding-top: 20px;
-    }
-    .back-wrap {
-  display: block;
-
-    }
-    .breadcrum-wrap{
-        flex-direction: column;
-        gap: 10px;
-    }
-    .surreal_mobile{
-        flex-direction: column-reverse;
-    }
-    .horse_height {
-        width: 100%;
-        height: 354px;
-    }
-    .view_enlarge{
-        display: none;
-    }
-    .surreal_list li{
-        display: inline;
-    }
-    .image_width {
-        width: 72px;
-        height: 78px;
-    }
-    .sunset_Col {
-        padding-right: 12px !important;
-    }
-    .sunset_encounter .sunset_heading {
-        font-family: "Recoleta";
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 40.8px;
-        letter-spacing: 0px;
-     
-    
-    }
-    .camera_width {
-        width: 33px !important;
-        height: 32px !important;
-    }
-
-    .calender {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        align-content: center;
-        gap: 0px;
-        margin-top: 19px;
-    }
-    .main_content_sunset p {
-        font-family: 'Overlock';
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 23px;
-        letter-spacing: 1px;
-        color: rgba(10, 9, 9, 1);
-    
-    
-    }
-    .first_size {
-
-        flex-grow: 1;
-        width: 39.2px;
-        height: 44.02px;
-        border-width: 0.69px;
-        transition: border-color 0.3s ease;
-    }
-    .second_box_height{
-        flex-grow: 1;
-        width: 40.58px;
-        height: 55.71px;
-        margin-left: -6px;
-        border-width: 0.69px;
-    }
- 
-    .third_box{
-        flex-grow: 1;
-        width: 50.21px;
-        height: 72.9px;
-        margin-left: -9px;
-        border-width: 0.69px;
-      
-    }
-    .fourth_box{
-        flex-grow: 1;
-        width: 65.34px;
-        height: 94.22px;
-        margin-left: -9px;
-        border-width: 0.69px;
-    }
- 
-    .fifth_box{
-        flex-grow: 1;
-        width: 74.96px;
-        height: 105.23px;
-        border-width: 0.69px;
-    }
-    .size_text p {
-        text-align: center;
-        font-family: 'Recoleta';
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 15.6px;
-        letter-spacing: 2px;
-        color: rgba(0, 0, 0, 1);
-    }
-    .box_container {
-        margin-top: -24px;
-    }
-    .frame_box .frame_one .Unframed {
-        width: 64px;
-        height: 36px;
-        border: 0.69px solid rgba(174, 174, 174, 1);
-    }
-    .frame_box .frame_one .white_frame {
-        width: 64px;
-        height: 36px;
-        border: 0.69px solid rgba(174, 174, 174, 1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .frame_box .frame_one .black_frame {
-        width: 64.09px;
-        height: 36.52px;
-        border: 4.82px solid rgba(98, 98, 98, 1);
-    }
-    .frame_box .frame_one .Plexi {
-        width: 64.09px;
-        height: 36.52px;
-        border: 0.69px solid rgba(174, 174, 174, 1);
-    }
-    .frame_box .frame_one .Hd_metal {
-        width: 64.09px;
-        height: 36.52px;
-        border: 0.69px solid rgba(174, 174, 174, 1);
-    }
-    .frame_box {
-        gap: 7px;
-    }
-    .inner-box {
-        width: 52px;
-        height: 27px;
-        background-color: rgba(200, 200, 200, 1);
-    }
-    .frame_text {
-        margin-top: 7px;
-        font-size: 8.96px;
-        font-family: 'Recoleta';
-        font-weight: 400;
-        line-height: 11.65px;
-        letter-spacing: 2px;
-    }
-    .choose_border .size_heading {
-        font-family: 'Recoleta';
-        
-        margin-top: 0px;
-    
-    }
-    .border_text{
-        font-size: 13px;
-    }
-    .add_to_cart{
-        flex-direction: column-reverse;
-    }
-    .prequalify .content {
-        margin-top: 20px;
-        font-family: 'Inter';
-        font-weight: 300;
-        font-size: 13px;
-        line-height: 22.35px;
-        letter-spacing: 1px;
-        color: rgba(0, 0, 0, 1);
-    }
-    .desktop_bg{
-        display: none;
-    }
-    .mobile_bg{
-        display: block;
-    }
-    .gap_gallery {
-        display: flex;
-        gap: 3px;
-        flex-direction: column-reverse;
-    }
-    .imag_mobile_width img {
-        margin-left: 0px;
-        height: 354px !important; 
-        width: 100% !important;
-    object-fit: cover !important;
-}
-#thumbnails{
-    display: flex !important;
-    gap: 6px !important;
-}
-.thumbnail_width {
-    width: 100% !important;
-    margin-top: -17px !important;
-}   
-}
-
-
-
-.splide__slide img {
-    width: 100%;
-    height: auto;
   }
-  .splide__slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .mobile_bg {
+    display: block;
   }
-  .splide__slide {
-    opacity: 0.6;
-  }
-  
-  
-  .splide__slide.is-active {
-    opacity: 1;
-  }
-  .thumbnail_width{
-    width: 97%;
-    margin-top: 11px;
-  }
-  .splide__slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.imag_mobile_width img{
-    margin-left: 0px;
-    height: 645px;
-    width: 526px;
-
-}
-.splide__arrow svg {
-display: none;
-}
-.thumbnail{
-    list-style: none;
-}
-.gap_gallery{
+  .gap_gallery {
     display: flex;
     gap: 3px;
+    flex-direction: column-reverse;
+  }
+  .imag_mobile_width img {
+    margin-left: 0px;
+    height: 354px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+  #thumbnails {
+    display: flex !important;
+    gap: 6px !important;
+  }
+  .thumbnail_width {
+    width: 100% !important;
+    margin-top: -17px !important;
+  }
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.splide__slide {
+  opacity: 0.6;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+}
+.thumbnail_width {
+  width: 97%;
+  margin-top: 11px;
+}
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.imag_mobile_width img {
+  margin-left: 0px;
+  height: 645px;
+  width: 526px;
+}
+.splide__arrow svg {
+  display: none;
+}
+.thumbnail {
+  list-style: none;
+}
+.gap_gallery {
+  display: flex;
+  gap: 3px;
 }
