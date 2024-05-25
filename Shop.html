@@ -9,6 +9,7 @@
   <!-- roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
     rel="stylesheet">
@@ -20,7 +21,12 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <!-- -overlock -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/themes/splide-skyblue.min.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link
     href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -32,6 +38,10 @@
 
   <link rel="stylesheet" href="./Styles/Collection.css">
   <link rel="stylesheet" href="./Styles/shop.css">
+
+  <!-- slider_links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
 </head>
 
 <body>
@@ -57,8 +67,8 @@
             <a class="navbar-brand" href="#"><img src="./assets/images/menu-svg.svg" alt="" srcset="" /></a>
           </button>
           <div class="logo">
-            <a class="navbar-brand" href="/"><img src="./assets/images/logo.svg" alt="logo" class="img-fluid"
-                srcset="" /></a>
+            <a class="navbar-brand" href="/"><img src="./assets/images/logo.svg" alt="logo"
+                class="img-fluid" srcset="" /></a>
           </div>
           <nav class="menu">
             <div class="drawer">
@@ -73,51 +83,30 @@
               </button>
               <ul class="navbar-nav nav-menus">
                 <li class="nav-item  mobile_view">
-                  <a href=""><img src="./assets/images/mob-logo.svg" alt="main-logo" class="img-fluid mobile-logo"></a>
+                  <a href=""><img src="./assets/images/mob-logo.svg" alt="main-logo"
+                      class="img-fluid mobile-logo"></a>
 
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="/">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./MainGallery.html">Artwork</a>
-                </li>
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Artwork
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="./about.html">Our Story</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Beauty Rituals</a>
-                      </li>
-                    </ul>
-                  </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="./Shop.html">Shop</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Exhibitions & Awards</a>
-                  </li> -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle drop-menu" href="./exhibitions.html" role="button">
-                    Exhibitions & Awards
+                  <a class="nav-link dropdown-toggle drop-menu" href="./exhibitions.html" role="button"
+                    >
+                    Artwork
                   </a>
                   <ul class="dropdown-menus">
                     <li class="inner-drop-wrap">
-                      <a class="dropdown-item inner-aro-menu" href="#">Enquine <img
-                          src="./assets/images/right-arrow-svg.svg" alt="" class="img-fluid " /></a>
-                      <ul class="inner-drop-menu">
-                        <li>
-                          <a class="dropdown-item" href="#">Wild Mustang Series</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Equestrain Elegance</a>
-                        </li>
-                      </ul>
+                      <a class="dropdown-item inner-aro-menu" href="#">Enquine <img src="./assets/images/right-arrow-svg.svg" alt=""
+                        class="img-fluid "/></a>
+                        <ul class="inner-drop-menu">
+                            <li>
+                                <a class="dropdown-item" href="./Collections.html">Wild Mustang Series</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Equestrain Elegance</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                       <a class="dropdown-item" href="./series.html">Hawaiin Series</a>
@@ -135,6 +124,34 @@
                       <a class="dropdown-item" href="#">Landscapes</a>
                     </li>
                   </ul>
+                </li>
+              
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Artwork
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./about.html">Our Story</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Beauty Rituals</a>
+                    </li>
+                  </ul>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="./Shop.html">Shop</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Exhibitions & Awards</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link  drop-menu" href="./exhibitions.html" role="button"
+                    >
+                    Exhibitions & Awards
+                  </a>
+   
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./installations.html">Installations</a>
@@ -162,120 +179,120 @@
               </button>
 
               <!-- <div class="offcanvas offcanvas-end cart-modal" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
-                aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header cart-header">
-                  <h5 class="offcanvas-title cart-title" id="offcanvasRightLabel">
-                    Your <span class="inner-heading">order</span>
-                  </h5>
-                  <button type="button" class="btn-close cart-cross" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
+              aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header cart-header">
+                <h5 class="offcanvas-title cart-title" id="offcanvasRightLabel">
+                  Your <span class="inner-heading">order</span>
+                </h5>
+                <button type="button" class="btn-close cart-cross" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <hr>
+              <div class="inner-order-wrap">
+                <div class="your-order-wrap pt-3">
+                  <div class="single-order-wrap">
+                    <div class="left-single-order-col">
+                      <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="order-product-info">
+                        <p class="order-product-title">Barrier Repair Cloud Cream</p>
+                        <p class="order-product-subtext">Scent: Kenyan Hibiscus + Moroccan Rose</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-order-col">
+                      <div class="order-quantity">
+                        <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
+                        <span>1</span>
+                        <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
+                      </div>
+                      <p class="order-price">$34,20</p>
+                      <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
+                            class="img-fluid" srcset="" /></a></p>
+                    </div>
+                  </div>
+                  <div class="mb-3 form-check subscribe-check-wrap">
+                    <div class="subs-select-wrap">
+                      <input type="checkbox" class="form-check-input ms-0 mt-0" id="subandsaveCheck1">
+                      <label class="form-check-label" for="subandsaveCheck1">Subscribe and save 5% + get free shipping
+                        every</label>
+                    </div>
+
+                    <div class="col-auto order-month-select">
+                      <select class="form-select custom_Select" id="autoSizingSelect">
+                        <option selected>1 Month</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
-                <hr>
-                <div class="inner-order-wrap">
-                  <div class="your-order-wrap pt-3">
-                    <div class="single-order-wrap">
-                      <div class="left-single-order-col">
-                        <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="" />
-                        <div class="order-product-info">
-                          <p class="order-product-title">Barrier Repair Cloud Cream</p>
-                          <p class="order-product-subtext">Scent: Kenyan Hibiscus + Moroccan Rose</p>
-                        </div>
-  
+                <div class="your-order-wrap pb-3">
+                  <div class="single-order-wrap">
+                    <div class="left-single-order-col">
+                      <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="">
+                      <div class="order-product-info">
+                        <p class="order-product-title">Mini African Beauty Butters</p>
                       </div>
-                      <div class="right-single-order-col">
-                        <div class="order-quantity">
-                          <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
-                          <span>1</span>
-                          <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
-                        </div>
-                        <p class="order-price">$34,20</p>
-                        <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
-                              class="img-fluid" srcset="" /></a></p>
-                      </div>
+
                     </div>
-                    <div class="mb-3 form-check subscribe-check-wrap">
-                      <div class="subs-select-wrap">
-                        <input type="checkbox" class="form-check-input ms-0 mt-0" id="subandsaveCheck1">
-                        <label class="form-check-label" for="subandsaveCheck1">Subscribe and save 5% + get free shipping
-                          every</label>
+                    <div class="right-single-order-col">
+                      <div class="order-quantity">
+                        <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
+                        <span>1</span>
+                        <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
                       </div>
-  
-                      <div class="col-auto order-month-select">
-                        <select class="form-select custom_Select" id="autoSizingSelect">
-                          <option selected>1 Month</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                      </div>
+                      <p class="order-price">$36</p>
+                      <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
+                            class="img-fluid" srcset=""></a></p>
                     </div>
                   </div>
-                  <div class="your-order-wrap pb-3">
-                    <div class="single-order-wrap">
-                      <div class="left-single-order-col">
-                        <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="">
-                        <div class="order-product-info">
-                          <p class="order-product-title">Mini African Beauty Butters</p>
-                        </div>
-  
-                      </div>
-                      <div class="right-single-order-col">
-                        <div class="order-quantity">
-                          <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
-                          <span>1</span>
-                          <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
-                        </div>
-                        <p class="order-price">$36</p>
-                        <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
-                              class="img-fluid" srcset=""></a></p>
-                      </div>
+                  <div class="mb-3 form-check subscribe-check-wrap">
+                    <div class="subs-select-wrap">
+                      <input type="checkbox" class="form-check-input ms-0 mt-0" id="subsCheck1">
+                      <label class="form-check-label" for="subsCheck1">Subscribe and save 5% + get free shipping</label>
                     </div>
-                    <div class="mb-3 form-check subscribe-check-wrap">
-                      <div class="subs-select-wrap">
-                        <input type="checkbox" class="form-check-input ms-0 mt-0" id="subsCheck1">
-                        <label class="form-check-label" for="subsCheck1">Subscribe and save 5% + get free shipping</label>
-                      </div>
-  
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="you-may-like-wrap py-4">
-                    <h2 class="you-may-heading">Your may also like</h2>
-                    <div class="single-like-wrap">
-                      <div class="left-single-like-col">
-                        <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
-                        <div class="like-product-info">
-                          <p class="like-product-title">Mini African Beauty Butters</p>
-                          <p class="like-product-price">$36</p>
-                        </div>
-  
-                      </div>
-                      <div class="right-single-like-col">
-                        <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="single-like-wrap">
-                      <div class="left-single-like-col">
-                        <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
-                        <div class="like-product-info">
-                          <p class="like-product-title">Mini African Beauty Butters</p>
-                          <p class="like-product-price">$36</p>
-                        </div>
-  
-                      </div>
-                    </div>
+
                   </div>
                 </div>
                 <hr>
-                <div class="offcanvas-body">
-                  <div class="subtotal-wrap">
-                    <p>Subtotal:</p>
-                    <p>$70,2</p>
+                <div class="you-may-like-wrap py-4">
+                  <h2 class="you-may-heading">Your may also like</h2>
+                  <div class="single-like-wrap">
+                    <div class="left-single-like-col">
+                      <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="like-product-info">
+                        <p class="like-product-title">Mini African Beauty Butters</p>
+                        <p class="like-product-price">$36</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-like-col">
+                      <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
+                      </p>
+                    </div>
                   </div>
-                  <p class="checkout-btn"><a href="#">CHECK OUT</a></p>
+                  <div class="single-like-wrap">
+                    <div class="left-single-like-col">
+                      <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="like-product-info">
+                        <p class="like-product-title">Mini African Beauty Butters</p>
+                        <p class="like-product-price">$36</p>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
-              </div> -->
+              </div>
+              <hr>
+              <div class="offcanvas-body">
+                <div class="subtotal-wrap">
+                  <p>Subtotal:</p>
+                  <p>$70,2</p>
+                </div>
+                <p class="checkout-btn"><a href="#">CHECK OUT</a></p>
+              </div>
+            </div> -->
             </li>
           </ul>
         </div>
@@ -305,7 +322,7 @@
         <div class="back-wrap">
           <a href="#">
             <img src="./assets/images/back.png" alt="img" class="img-fluid" srcset=""> <span class="back_text ms-3">
-              Back To Gallery</span>
+              Back To Collections</span>
           </a>
         </div>
 
@@ -321,10 +338,76 @@
   <section class="surreal_sunset_section">
     <div class="container">
 
-      <div class="row">
+      <d class="row">
+
+<div class="col-lg-6">
+  <div id="main-slider" class="splide ">
+  <div class="gap_gallery">
+    <div class="thumbnail_width">
+      <ul id="thumbnails" class="ps-0">
+        <li class="thumbnail d-inline-block">
+           <p class="mb-1"> <img src="./assets/images/Surreal_1.png" alt="front_image" class="img-fluid image_width" /></p>
+        </li>
+        <li class="thumbnail">
+           <p class="mb-1"> <img src="./assets/images/Surreal_2.png" alt="front_image" class="img-fluid image_width" /></p>
+        </li>
+        <li class="thumbnail">
+           <p class="mb-1"> <img src="./assets/images/Surreal_3.png" alt="front_image" class="img-fluid image_width" /></p>
+        </li>
+        <li class="thumbnail">
+           <p class="mb-1"> <img src="./assets/images/Surreal_4.png" alt="front_image" class="img-fluid image_width " /></p>
+        </li>
+        <li class="thumbnail">
+           <p class="mb-1"> <img src="./assets/images/Surreal_5.png" alt="front_image" class="img-fluid image_width" /></p>
+        </li>
+        
+    
+    </ul>
+    </div>
+    <div class="splide__track left_section">
+     
+        <ul class="splide__list text-center ps-0">
+            <li class="splide__slide">
+              <p class="imag_mobile_width "><img src="./assets/images/surreal_main.png" class="img-fluid horse_height" alt="product" /></p>
+              <p class="camera_position"><img src="./assets/images/Surreal_camera.png" alt="main_camera"
+                class="img-fluid camera_width "></p>
+            </li>
+            <li class="splide__slide">
+              <p class="imag_mobile_width">  <img src="./assets/images/surreal_main.png" class="img-fluid horse_height" alt="product" /></p>
+              <p class="camera_position"><img src="./assets/images/Surreal_camera.png" alt="main_camera"
+                class="img-fluid camera_width "></p>
+            </li>
+            <li class="splide__slide">
+             <p class="imag_mobile_width"> <img src="./assets/images/surreal_main.png" class="img-fluid horse_height " alt="product" /></p>
+             <p class="camera_position"><img src="./assets/images/Surreal_camera.png" alt="main_camera"
+              class="img-fluid camera_width "></p>
+            </li>
+        
+            <li class="splide__slide">
+             <p class="imag_mobile_width"> <img src="./assets/images/surreal_main.png" class="img-fluid horse_height " alt="product" /></p>
+             <p class="camera_position"><img src="./assets/images/Surreal_camera.png" alt="main_camera"
+              class="img-fluid camera_width "></p>
+            </li>
+        
+            <li class="splide__slide">
+             <p class="imag_mobile_width"> <img src="./assets/images/surreal_main.png" class="img-fluid horse_height " alt="product" /></p>
+             <p class="camera_position"><img src="./assets/images/Surreal_camera.png" alt="main_camera"
+              class="img-fluid camera_width "></p>
+            </li>
+        
+        </ul>
+    </div>
 
 
-        <div class="col-lg-6 mt-lg-4">
+  </div>
+
+  </div>
+
+
+
+</div>
+
+         <!-- <div class="col-lg-6 mt-lg-4">
           <div class="d-flex gap-2 surreal_mobile">
             <div>
               <ul class="list-unstyled surreal_list">
@@ -350,6 +433,14 @@
             </div>
           </div>
         </div>
+         -->
+
+
+
+
+
+
+
 
         <div class="col-lg-6  mt-lg-4 sunset_Col">
           <div class="sunset_encounter">
@@ -738,6 +829,54 @@
 
   </script>
 
+
+
+<script>
+ 
+        var splide = new Splide('#main-slider', {
+            pagination: false,
+        });
+
+
+        var thumbnails = document.getElementsByClassName('thumbnail');
+        var current;
+
+
+        for (var i = 0; i < thumbnails.length; i++) {
+            initThumbnail(thumbnails[i], i);
+        }
+
+
+        function initThumbnail(thumbnail, index) {
+            thumbnail.addEventListener('click', function () {
+                splide.go(index);
+            });
+        }
+
+
+        splide.on('mounted move', function () {
+            var thumbnail = thumbnails[splide.index];
+
+
+            if (thumbnail) {
+                if (current) {
+                    current.classList.remove('is-active');
+                }
+
+
+                thumbnail.classList.add('is-active');
+                current = thumbnail;
+            }
+        });
+
+
+        splide.mount();
+
+  
+</script>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
 
   <script src="./script.js"></script>
 </body>
