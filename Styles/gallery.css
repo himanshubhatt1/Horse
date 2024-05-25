@@ -17,14 +17,14 @@
   
   .breadcrumb-sec .active-bredcrum{
     font-size: 14px;
-    font-family: 'Roboto',serif;
+    font-family: "Roboto Serif", serif;
     line-height: 16.39px;
     font-weight: 600;
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 1);
   }
   .breadcrum-wrap p{
-    font-family: 'Roboto',serif;
+    font-family: "Roboto Serif", serif;
   }
   .back-wrap .back_text{
     color: black !important;
