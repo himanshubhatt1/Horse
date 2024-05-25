@@ -1568,10 +1568,10 @@ header {
 }
 .series-banner-img {
   position: relative;
-  background: url("./assets/images/series-text-bg.png") no-repeat left 2.5px
+  /* background: url("./assets/images/series-text-bg.png") no-repeat left 2.5px
       center;
-  /* padding: 360px 0; */
-  background-size: cover;
+  /* padding: 360px 0; 
+  background-size: cover; */
 }
 .series-banner-content {
   position: absolute;
