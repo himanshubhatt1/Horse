@@ -128,15 +128,19 @@ header {
   display: none;
   position: absolute;
   top: 23px;
-  background: #fff;
+  background: #545454;
   z-index: 1;
   padding: 0px;
   list-style: none;
   border: 1px solid rgba(0, 0, 0, 0.175);
 }
 .nav-item.dropdown .dropdown-menus a{
-  font-family: 'Recoleta';
+  font-family: 'Recoleta'!important;
   font-weight: 400;
+  font-size: 17px;
+  line-height: 23.12px;
+  letter-spacing: 1px;
+  color: #fff;
 }
 .dropdown:hover .dropdown-menus {
   display: block;
@@ -163,8 +167,8 @@ header {
   display: none;
   position: absolute;
   top: -21px;
-  left: 220px;
-  background: #fff;
+  left: 250px;
+  background: #545454;
   z-index: 1;
   padding: 0px;
   list-style: none;
@@ -177,9 +181,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.inner-aro-menu img{
+/* .inner-aro-menu img{
   width: 12px;
-}
+} */
 .mega-menu {
   width: 100%;
   top: 20px !important;
@@ -1053,6 +1057,13 @@ padding-bottom: 130px !important;
     left: initial;
     top: 15px;
   }
+   .inner-aro-menu{
+    display: flex;
+    column-gap: 20px;
+  } 
+   .inner-aro-menu img{
+    width: 12px;
+  } 
   .navbar-nav .dropdown-menu {
     padding: 15px 0;
     background: #1e1e1e;
@@ -1811,6 +1822,12 @@ letter-spacing: 1px;
   justify-content: space-between;
   align-items: center;
   column-gap: 5px;
+}
+.expo-art-img-wrap .col{
+  display: flex;
+}
+.expo-art-img-wrap .col img{
+  object-fit: cover;
 }
 .pollux-img-wrap {
   display: flex;
