@@ -20,7 +20,7 @@
   font-family: "Roboto Serif", serif;
   line-height: 16.39px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: rgba(0, 0, 0, 1);
 }
 .breadcrum-wrap p {
@@ -137,8 +137,8 @@
   }
   .shop_btn {
     position: absolute;
-    bottom: 30px;
-    right: 40px;
+    bottom: 25px;
+    right: 20px;
   }
   .shop_btn .btn_shop {
     /* width: 114.57px;

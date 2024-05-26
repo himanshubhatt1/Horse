@@ -419,7 +419,7 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 23px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: rgba(10, 9, 9, 1);
   }
   .first_size {
@@ -531,7 +531,7 @@
     font-weight: 300;
     font-size: 13px;
     line-height: 22.35px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 1);
   }
   .desktop_bg {
