@@ -2106,4 +2106,7 @@ header {
 .bottom-series-row{
   flex-direction: column-reverse;
 }
+.footer_content .row{
+  padding-right: 40px;
+}
 }

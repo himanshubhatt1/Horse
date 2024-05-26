@@ -30,8 +30,9 @@
   letter-spacing: -2px;
 }
 .breadcrum-wrap {
-  width: 810px;
+  width: 100%;
   padding-top: 35px;
+  max-width: 810px;
 }
 .breadcrumb-sec {
   background-color: white;
