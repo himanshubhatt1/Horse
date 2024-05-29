@@ -128,7 +128,7 @@ header {
   display: none;
   position: absolute;
   top: 23px;
-  background: #545454;
+  background: #fff;
   z-index: 1;
   padding: 0px;
   list-style: none;
@@ -140,7 +140,7 @@ header {
   font-size: 17px;
   line-height: 23.12px;
   letter-spacing: 1px;
-  color: #fff;
+  /* color: #fff; */
 }
 .dropdown:hover .dropdown-menus {
   display: block;
@@ -168,7 +168,7 @@ header {
   position: absolute;
   top: -21px;
   left: 250px;
-  background: #545454;
+  background: #fff;
   z-index: 1;
   padding: 0px;
   list-style: none;
@@ -345,15 +345,16 @@ header {
 }
 
 .explore_more button {
-  width: 257px;
+  width: 230px;
   height: 57px;
   background-color: #201e1e;
   border: 2px solid #201e1e;
-  padding: 13px 4px 13px 4px;
+  /* padding: 13px 4px 13px 4px; */
   font-size: 22.99px;
   line-height: 31.27px;
   color: #ffffff;
   transition: 0.5s all;
+  font-family: "Recoleta";
 }
 .artistry_section .motion_text {
   color: rgba(0, 0, 0, 0.78);
@@ -379,6 +380,8 @@ header {
 .horse_slider_section .motion_text {
   font-family: "Roboto Serif", serif;
   max-width: 817px;
+  font-weight: 400;
+  color: #000000C7;
 }
 .mustang_section {
   margin-top: 35px;
@@ -455,6 +458,7 @@ header {
 }
 .matt_Dusing {
   position: relative;
+  margin-top: -20px;
 }
 .smallimg {
   position: absolute;
@@ -462,13 +466,13 @@ header {
 }
 .Exhibition_section {
   background-color: rgba(242, 242, 242, 0.85);
-  padding-top: 180px;
+  padding-top: 190px;
   padding-bottom: 180px;
   position: relative;
 }
 .Exhibition_section .left_image {
   position: absolute;
-  top: 30px;
+  top: 80px;
   width: 500px;
 }
 .exhibition_heading h1 {
@@ -482,6 +486,9 @@ header {
   font-weight: 400;
   line-height: 28px;
   color: rgba(0, 0, 0, 0.84);
+}
+.dusing_img img{
+  max-width: 213px;
 }
 .polygons {
   position: relative;
@@ -1629,6 +1636,10 @@ header {
   line-height: 16.39px;
   color: #000000;
   font-family: "Roboto Serif", serif;
+}
+.breadcrum-wrap p a{
+  text-decoration: none;
+  color: #000000;
 }
 .breadcrum-wrap p span:first-of-type {
   opacity: 50%;
