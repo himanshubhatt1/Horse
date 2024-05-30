@@ -137,7 +137,7 @@ header {
 .nav-item.dropdown .dropdown-menus a {
   font-family: "Recoleta" !important;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 23.12px;
   letter-spacing: 1px;
   /* color: #fff; */
@@ -167,7 +167,7 @@ header {
   display: none;
   position: absolute;
   top: -21px;
-  left: 250px;
+  left: 240px;
   background: #fff;
   z-index: 1;
   padding: 0px;
@@ -180,6 +180,9 @@ header {
 .inner-aro-menu {
   display: flex;
   justify-content: space-between;
+}
+.inner-aro-menu img{
+  width: 10px;
 }
 /* .inner-aro-menu img{
   width: 12px;
@@ -324,7 +327,7 @@ header {
   font-size: 12.99px;
   line-height: 19.48px;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .top_section .sign_up_text {
   font-size: 14px;
@@ -472,7 +475,7 @@ header {
 }
 .Exhibition_section .left_image {
   position: absolute;
-  top: 80px;
+  top: 70px;
   width: 500px;
 }
 .exhibition_heading h1 {
@@ -569,7 +572,7 @@ header {
 }
 .legend_section {
   margin-top: 180px;
-  padding-top: 120px;
+  padding-top: 180px;
 }
 .west_coffee h1 {
   font-size: 58px;
@@ -620,6 +623,12 @@ header {
   font-weight: 600;
   font-size: 28.17px;
   color: rgba(26, 24, 24, 1);
+}
+.legend_section .right_section img{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 80%;
 }
 .Usd_65 .free_shipping {
   font-size: 15.17px;
@@ -694,7 +703,8 @@ header {
   padding-top: 80px;
 }
 .footer_navs {
-  gap: 120px;
+  /* gap: 120px; */
+  justify-content: space-between;
 }
 .footer_navs ul li {
   margin-top: 8px;
@@ -708,7 +718,8 @@ header {
   text-decoration: none;
 }
 .social_navs {
-  gap: 90px;
+  /* gap: 90px; */
+  justify-content: space-between!important;
 }
 .social_navs ul li {
   margin-top: 8px;
@@ -942,7 +953,7 @@ header {
 }
 .experience-sec {
   background: url("./assets/images/linee.svg") no-repeat;
-  background-position: center 37%;
+  background-position: center 44%;
   padding: 15px;
   position: relative;
 }
@@ -1644,8 +1655,9 @@ header {
 .breadcrum-wrap p span:first-of-type {
   opacity: 50%;
 }
-.back-wrap a span.back_text{
+.back-wrap a span{
   opacity: 100%;
+  font-size: 15px;
 }
 .breadcrumb-sec .active-bredcrum {
   font-size: 14px;
