@@ -327,7 +327,8 @@ header {
   font-size: 12.99px;
   line-height: 19.48px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  font-family: "Recoleta";
 }
 .top_section .sign_up_text {
   font-size: 14px;
