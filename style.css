@@ -349,12 +349,12 @@ header {
 }
 
 .explore_more button {
-  width: 190px;
+  width: 170px;
   height: 57px;
   background-color: #201e1e;
   border: 2px solid #201e1e;
   /* padding: 13px 4px 13px 4px; */
-  font-size: 20.99px;
+  font-size: 16px;
   line-height: 31.27px;
   color: #ffffff;
   transition: 0.5s all;
@@ -560,12 +560,12 @@ header {
 }
 
 .view_award button {
-  width: 210px;
+  width: 185px;
   background-color: rgba(32, 30, 30, 1);
   color: white;
   border: 2px solid rgba(32, 30, 30, 1);
   height: 57px;
-  font-size: 20.99px;
+  font-size: 16px;
   font-family: "Recoleta";
   line-height: 31.27px;
   font-weight: 400;
