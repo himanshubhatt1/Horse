@@ -470,14 +470,23 @@ header {
 }
 .Exhibition_section {
   background-color: rgba(242, 242, 242, 0.85);
-  padding-top: 190px;
-  padding-bottom: 180px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   position: relative;
 }
 .Exhibition_section .left_image {
-  position: absolute;
-  top: 70px;
-  width: 500px;
+  /* position: absolute; */
+  /* top: 70px; */
+  /* width: 500px; */
+  margin-bottom: 5px;
+  display: flex;
+    column-gap: 5px;
+}
+.Exhibition_section .left_image img{
+  width: 50%;
+}
+.Exhibition_section .left_image_section .view_award {
+  display: none;
 }
 .exhibition_heading h1 {
   font-size: 70px;
@@ -572,8 +581,8 @@ header {
   transition: 0.5s all;
 }
 .legend_section {
-  margin-top: 180px;
-  padding-top: 180px;
+  /* margin-top: 180px; */
+  padding-top: 60px;
 }
 .west_coffee h1 {
   font-size: 54px;
@@ -612,7 +621,8 @@ header {
   transition: 0.5s all;
 }
 .view-series-btn-botm button{
-  width: 196.94px;
+  width: 160.94px;
+  font-size: 16px;
 }
 .left_section .buy_now {
   display: flex;
@@ -1636,6 +1646,9 @@ header {
   align-items: center;
   column-gap: 10px;
 }
+.back-wrap a img{
+  width: 20px;
+}
 .room-heading {
   text-align: center;
   font-size: 45px;
@@ -2078,7 +2091,9 @@ header {
     line-height: 23px;
     font-family: "Overlock" !important;
   }
-
+  .Exhibition_section .left_image_section .view_award {
+    display: block;
+  }
   .room-heading {
     font-size: 30px;
     line-height: 40.8px;
@@ -2135,7 +2150,20 @@ header {
   padding-right: 40px;
 }
 }
-@media (min-width:821px) and (max-width: 1180px){
+@media (min-width:821px) and (max-width: 1080px){
+  .horse_slider_section.desktop_Section .body {
+    position: relative;
+    height: 50vh;
+}
+.swiper-slide .imagess {
+  top: 35%;
+}
+.swiper-content-row{
+  flex-direction: column;
+  align-items: flex-start!important;
+}
+}
+@media (min-width:1080px) and (max-width: 1180px){
   .horse_slider_section.desktop_Section .body {
     position: relative;
     height: 75vh;
