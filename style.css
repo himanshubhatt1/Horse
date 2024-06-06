@@ -2000,6 +2000,11 @@ header {
 .pollux-img-wrap .col {
   display: flex;
 }
+.heading_icon_fourth img{
+  width: 90px;
+
+}
+
 @media (max-width: 575px) {
   .mobile_exibhition_text {
     display: block;
