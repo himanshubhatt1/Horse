@@ -360,6 +360,8 @@ header {
   transition: 0.5s all;
   font-family: "Recoleta";
 }
+
+
 .explore_more a {
   /* padding: 13px 4px 13px 4px; */
   font-size: 20px;
@@ -1864,6 +1866,10 @@ header {
   max-width: 986px;
   margin: auto;
 }
+.view_series_btn a{
+  margin-top: 30px;
+  justify-content: center !important;
+}
 .series-banner-content p {
   font-family: "Overlock";
   font-size: 17px;
@@ -1876,19 +1882,19 @@ header {
 }
 .view-series-btn a {
   text-decoration: none;
-  background: #201e1e;
-  color: #ffffff;
+
+  color:black;
   font-size: 22.99px;
   line-height: 31.27px;
   font-family: "Recoleta";
   padding: 13px 21px;
-  border: 2px solid #201e1e;
+
   transition: 0.2s ease-in-out;
 }
 .view-series-btn a:hover {
   color: #201e1e;
   background: transparent;
-  border: 2px solid #201e1e;
+
 }
 .series-text-content {
   padding-left: 50px;
