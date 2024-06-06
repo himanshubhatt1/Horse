@@ -1,159 +1,157 @@
 @font-face {
-    font-family: "Poppins-Regular";
-    src: url("../assets/fonts/Poppins-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Poppins-Medium";
-    src: url("../assets/fonts/Poppins-Medium.ttf");
-  }
-  @font-face {
-    font-family: "RecifeDisplay";
-    src: url("../assets/fonts/recife/RecifeDisplay-Light.ttf");
-  }
-  @font-face {
-    font-family: "Recoleta";
-    src: url("../assets/fonts/recoleta/Recoleta-RegularDEMO.otf");
-  }
-  
-  .breadcrumb-sec .active-bredcrum{
-    font-size: 14px;
-    font-family: 'Roboto',serif;
-    line-height: 16.39px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: rgba(0, 0, 0, 1);
-  }
-  .breadcrum-wrap p{
-    font-family: 'Roboto',serif;
-  }
-  .back-wrap .back_text{
-    color: black !important;
-    opacity: 100% !important;
-    font-family: 'Poppins-Regular',sans-serif;
-  }
-  .gallery_section .gallery_heading .main_heading{
-       font-family: 'Recoleta';
-       font-weight: 400;
-       font-size: 45px;
-       line-height: 61.2px;
-    
-  }
-  .gallery_heading .main_text{
-    font-family: 'Recoleta';
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 27.28px;
-    letter-spacing: 1.2px;
-    color: rgba(0, 0, 0, 0.78);
-  }
-  .gallery_section{
-    margin-top: 60px;
-  }
- .height_img{
-    height: 376px;
-    object-fit: cover;
- }
- .load_more  button{
-    background-color: rgba(32, 30, 30, 1);
-    border: 2px solid rgba(32, 30, 30, 1);
-    
-    height: 57px;
-    font-size: 22.99px;
-    line-height: 31.27px;
-    font-family: 'Recoleta';
-    color: rgba(255, 255, 255, 1);
-    letter-spacing: 1.2px;
-    font-weight: 400 ;
-    padding: 13px 21px;
- }
- .load_more_section{
-    margin-top: 120px;
- }
- .gallery_legen_section{
-    margin-top: 50px;
-    padding-top: 30px;
- }
- .gallery_legen_section .legends_text{
-    font-weight: 600;
-    font-family: 'Inter';
-    font-size: 18px;
- }
- .mustang_heading h1{font-family: 'Recoleta';
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40.8px;
-    letter-spacing: 1.3px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-
- }
- .shop_btn .btn_shop{
-  width: 144.57px;
-  height: 38px;
-
-  background-color: white;
-  border: none;
-  padding:8px 16px;
-  font-size: 16px;
-  line-height: 21.76px;
-  font-family: 'Recoleta';
-  
- }
- .shop_btn{
-  position: absolute;
-  bottom: 40px;
-  right: 40px;
-  
-
- }
- .shop_btn .shop_arrow{
-  width: 13% !important;
- }
-.view_series{
-  display: none;
+  font-family: "Poppins-Regular";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
 }
- @media screen and (max-width:767px) {
-  .back-wrap{
-    display: none;
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../assets/fonts/Poppins-Medium.ttf");
 }
-.breadcrum-wrap{
-  justify-content: center;
+@font-face {
+  font-family: "RecifeDisplay";
+  src: url("../assets/fonts/recife/RecifeDisplay-Light.ttf");
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url("../assets/fonts/recoleta/Recoleta-RegularDEMO.otf");
+}
+
+.breadcrumb-sec .active-bredcrum {
+  font-size: 14px;
+  font-family: "Roboto Serif", serif;
+  line-height: 16.39px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 1);
+}
+.breadcrum-wrap p {
+  font-family: "Roboto Serif", serif;
+}
+.back-wrap .back_text {
+  color: black !important;
+  opacity: 100% !important;
+  font-family: "Poppins-Regular", sans-serif;
+}
+.gallery_section .gallery_heading .main_heading {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 61.2px;
+}
+.gallery_heading .main_text {
+  font-family: "Recoleta";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27.28px;
+  letter-spacing: 1.2px;
+  color: rgba(0, 0, 0, 0.78);
 }
 .gallery_section {
-  margin-top: 6px;
+  margin-top: 60px;
+}
+.height_img {
+  height: 376px;
+  object-fit: cover;
+}
+.load_more button {
+  background-color: rgba(32, 30, 30, 1);
+  border: 2px solid rgba(32, 30, 30, 1);
+
+  height: 57px;
+  font-size: 22.99px;
+  line-height: 31.27px;
+  font-family: "Recoleta";
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  padding: 13px 21px;
+}
+.load_more_section {
+  margin-top: 120px;
+}
+.gallery_legen_section {
+  margin-top: 50px;
+  padding-top: 30px;
+}
+.gallery_legen_section .legends_text {
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 18px;
 }
 .mustang_heading h1 {
-  font-family: 'Recoleta';
+  font-family: "Recoleta";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 30px;
   line-height: 40.8px;
   letter-spacing: 1.3px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
-.view_series{
-  display: block;
+.shop_btn .btn_shop {
+  background-color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 21.76px;
+  font-family: "Recoleta";
+  text-decoration: none;
+  color: #000000;
 }
-.btn_series{
-  display: none !important;
+.btn_shop{
+  display: flex;
 }
 .shop_btn {
   position: absolute;
-  bottom: 30px;
-  right: 40px
+  bottom: 40px;
+  right: 40px;
 }
-.shop_btn .btn_shop {
-  width: 114.57px;
-  height: 35px;
-  background-color: white;
-  border: none;
-  padding: 8px 16px;
-  font-size: 12px;
-  line-height: 21.76px;
-  font-family: 'Recoleta';
+.shop_btn .shop_arrow {
+  width: 13px !important;
 }
-.gallery_legen_section {
-  margin-top: 11px;
-  padding-top: 30px;
+.view_series {
+  display: none;
 }
- }
+@media screen and (max-width: 767px) {
+  .back-wrap {
+    display: none;
+  }
+  .breadcrum-wrap {
+    justify-content: center;
+  }
+  .gallery_section {
+    margin-top: 6px;
+  }
+  .mustang_heading h1 {
+    font-family: "Recoleta";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40.8px;
+    letter-spacing: 1.3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .view_series {
+    display: block;
+  }
+  .btn_series {
+    display: none !important;
+  }
+  .shop_btn {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+  }
+  .shop_btn .btn_shop {
+    /* width: 114.57px;
+    height: 35px; */
+    background-color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 21.76px;
+    font-family: "Recoleta";
+  }
+  .gallery_legen_section {
+    margin-top: 11px;
+    padding-top: 30px;
+  }
+}
