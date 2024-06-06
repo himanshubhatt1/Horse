@@ -195,10 +195,11 @@
   border: 2px solid black;
 }
 .size_text {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 .frame_box {
   margin-top: 20px;
+  column-gap: 10px;
 }
 .size_text p {
   font-family: "Recoleta";
@@ -252,6 +253,7 @@
   font-weight: 400;
   line-height: 16.9px;
   letter-spacing: 2px;
+  margin-top: 5px;
 }
 
 .choose_frame .size_heading {
@@ -312,7 +314,7 @@
   font-weight: 400;
 }
 .total_text {
-  font-size: 43px;
+  font-size: 35px;
   line-height: 55.9px;
   font-weight: 400;
   font-family: "Recoleta";
@@ -321,7 +323,7 @@
 .prequalify .content {
   font-family: "Inter";
   font-weight: 300;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 26.35px;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 1);

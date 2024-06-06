@@ -360,6 +360,45 @@ header {
   transition: 0.5s all;
   font-family: "Recoleta";
 }
+.explore_more a {
+  /* padding: 13px 4px 13px 4px; */
+  font-size: 20px;
+  line-height: 31.27px;
+  color: #000;
+  transition: 0.5s all;
+  font-family: "Recoleta";
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  transition: 0.4s ease-in-out;
+}
+.explore_more a:hover span {
+  border: 1px solid #000;
+  background: transparent;
+}
+.explore_more a:hover .show_arrow {
+  display: block;
+}
+.explore_more a:hover .hide_arrow {
+  display: none;
+}
+.explore_more a span {
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.explore_more a img {
+  width: 45px
+}
 .artistry_section .motion_text {
   color: rgba(0, 0, 0, 0.78);
   letter-spacing: 1px;
@@ -367,6 +406,13 @@ header {
   font-family: "Recoleta";
   font-weight: 400;
   font-size: 16px;
+}
+.artistry_section .matt_writer{
+  font-family: "Roboto Serif", serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27.28px;
+  color: #000;
 }
 .artistry_section .motion_heading {
   font-size: 51.62px;
@@ -1237,6 +1283,9 @@ header {
     text-align: center;
     color: #000000;
   }
+  .explore_more a {
+    justify-content: center;
+}
 
   .right_about .as_seasoned {
     text-align: center;
