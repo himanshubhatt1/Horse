@@ -408,7 +408,7 @@ header {
   font-size: 16px;
 }
 .artistry_section .matt_writer{
-  font-family: "Roboto Serif", serif;
+  font-family: "Roboto Serif";
   font-weight: 300;
   font-size: 16px;
   line-height: 27.28px;
@@ -426,6 +426,8 @@ header {
 }
 .horse_slider_section .motion_heading {
   font-family: "Recoleta" !important;
+  font-size: 49px;
+  line-height: 49px;
 }
 .horse_slider_section .motion_text {
   font-family: "Roboto Serif", serif;
@@ -484,7 +486,7 @@ header {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.matt_heading h2 {
+.matt_heading h1 {
   font-size: 70px;
   font-family: "Recoleta";
   line-height: 95.2px;
@@ -570,9 +572,9 @@ header {
   top: 50%;
   left: 0px;
 }
-/* .swiper-pagination-bullet-active:nth-child(3):after{
+.swiper-pagination-bullet-active:nth-child(3):after{
   background-color: transparent !important;
-} */
+}
 .mobile_view {
   display: none;
 }
