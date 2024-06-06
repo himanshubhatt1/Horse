@@ -360,6 +360,8 @@ header {
   transition: 0.5s all;
   font-family: "Recoleta";
 }
+
+
 .explore_more a {
   /* padding: 13px 4px 13px 4px; */
   font-size: 20px;
@@ -408,7 +410,7 @@ header {
   font-size: 16px;
 }
 .artistry_section .matt_writer{
-  font-family: "Roboto Serif", serif;
+  font-family: "Roboto Serif";
   font-weight: 300;
   font-size: 16px;
   line-height: 27.28px;
@@ -426,6 +428,8 @@ header {
 }
 .horse_slider_section .motion_heading {
   font-family: "Recoleta" !important;
+  font-size: 49px;
+  line-height: 49px;
 }
 .horse_slider_section .motion_text {
   font-family: "Roboto Serif", serif;
@@ -484,7 +488,7 @@ header {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.matt_heading h2 {
+.matt_heading h1 {
   font-size: 70px;
   font-family: "Recoleta";
   line-height: 95.2px;
@@ -534,7 +538,7 @@ header {
 .Exhibition_section .left_image_section .view_award {
   display: none;
 }
-.exhibition_heading h1 {
+.exhibition_heading h3 {
   font-size: 70px;
   line-height: 72px;
   font-family: "Recoleta";
@@ -570,9 +574,9 @@ header {
   top: 50%;
   left: 0px;
 }
-/* .swiper-pagination-bullet-active:nth-child(3):after{
+.swiper-pagination-bullet-active:nth-child(3):after{
   background-color: transparent !important;
-} */
+}
 .mobile_view {
   display: none;
 }
@@ -630,13 +634,19 @@ header {
   /* margin-top: 180px; */
   padding-top: 60px;
 }
-.west_coffee h1 {
-  font-size: 54px;
-  line-height: 67px;
+.west_coffee h3 {
+  font-size: 68px;
+  line-height: 72px;
   font-family: "Recoleta";
   color: rgba(26, 24, 24, 1);
 }
-
+.separator_bar{
+  height: 25px;
+  background-color: grey;
+  border-top: none;
+  margin-top: 80px;
+  border-radius: 30px;
+}
 .west_coffee .legends_text {
   font-weight: 600;
   font-size: 17px;
@@ -1848,13 +1858,17 @@ header {
   padding-top: 70px;
   /* max-width: 986px; */
 }
-.series-banner-content h2 {
+.series-banner-content h3 {
   font-size: 75.96px;
   line-height: 103.3px;
   letter-spacing: -1px;
   font-family: "Recoleta";
   max-width: 986px;
   margin: auto;
+}
+.view_series_btn a{
+  margin-top: 30px;
+  justify-content: center !important;
 }
 .series-banner-content p {
   font-family: "Overlock";
@@ -1868,19 +1882,19 @@ header {
 }
 .view-series-btn a {
   text-decoration: none;
-  background: #201e1e;
-  color: #ffffff;
+
+  color:black;
   font-size: 22.99px;
   line-height: 31.27px;
   font-family: "Recoleta";
   padding: 13px 21px;
-  border: 2px solid #201e1e;
+
   transition: 0.2s ease-in-out;
 }
 .view-series-btn a:hover {
   color: #201e1e;
   background: transparent;
-  border: 2px solid #201e1e;
+
 }
 .series-text-content {
   padding-left: 50px;

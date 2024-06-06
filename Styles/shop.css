@@ -21,6 +21,14 @@
 .breadcrum-wrap span:first-of-type {
   opacity: 100%;
 }
+.west_coffee h1{
+  font-size: 58px;
+  line-height: 67px;
+font-weight: 400;
+font-family: "Recoleta";
+
+}
+
 .Wild_heading h1 {
   color: rgba(0, 0, 0, 1);
   font-family: "Recoleta";
@@ -314,7 +322,7 @@
   font-weight: 400;
 }
 .total_text {
-  font-size: 35px;
+  font-size: 43px;
   line-height: 55.9px;
   font-weight: 400;
   font-family: "Recoleta";
