@@ -536,7 +536,7 @@ header {
 .Exhibition_section .left_image_section .view_award {
   display: none;
 }
-.exhibition_heading h1 {
+.exhibition_heading h3 {
   font-size: 70px;
   line-height: 72px;
   font-family: "Recoleta";
@@ -632,13 +632,19 @@ header {
   /* margin-top: 180px; */
   padding-top: 60px;
 }
-.west_coffee h1 {
-  font-size: 54px;
-  line-height: 67px;
+.west_coffee h3 {
+  font-size: 68px;
+  line-height: 72px;
   font-family: "Recoleta";
   color: rgba(26, 24, 24, 1);
 }
-
+.separator_bar{
+  height: 25px;
+  background-color: grey;
+  border-top: none;
+  margin-top: 80px;
+  border-radius: 30px;
+}
 .west_coffee .legends_text {
   font-weight: 600;
   font-size: 17px;
@@ -1850,7 +1856,7 @@ header {
   padding-top: 70px;
   /* max-width: 986px; */
 }
-.series-banner-content h2 {
+.series-banner-content h3 {
   font-size: 75.96px;
   line-height: 103.3px;
   letter-spacing: -1px;
