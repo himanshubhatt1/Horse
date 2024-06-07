@@ -574,9 +574,9 @@ header {
   top: 50%;
   left: 0px;
 }
-.swiper-pagination-bullet-active:nth-child(3):after{
+/* .swiper-pagination-bullet-active:nth-child(3):after{
   background-color: transparent !important;
-}
+} */
 .mobile_view {
   display: none;
 }
@@ -851,7 +851,7 @@ header {
 
 .body {
   position: relative;
-  height: 130vh;
+  height: 120vh;
 }
 .swiper {
   width: 100%;
@@ -1021,7 +1021,7 @@ header {
 .experience-sec {
   background: url("./assets/images/linee.svg") no-repeat;
   background-position: center 40%;
-  background-size: 180px;
+  background-size: 205px;
   padding: 15px;
   position: relative;
 }
