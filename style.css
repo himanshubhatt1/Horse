@@ -354,7 +354,7 @@ header {
   background-color: #201e1e;
   border: 2px solid #201e1e;
   /* padding: 13px 4px 13px 4px; */
-  font-size: 16px;
+  font-size: 18px;
   line-height: 31.27px;
   color: #ffffff;
   transition: 0.5s all;
@@ -641,7 +641,7 @@ header {
   color: rgba(26, 24, 24, 1);
 }
 .separator_bar{
-  height: 25px;
+  height: 1px;
   background-color: grey;
   border-top: none;
   margin-top: 80px;
