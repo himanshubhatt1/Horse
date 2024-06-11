@@ -538,7 +538,7 @@ header {
 .Exhibition_section .left_image_section .view_award {
   display: none;
 }
-.exhibition_heading h3 {
+.exhibition_heading h1 {
   font-size: 70px;
   line-height: 72px;
   font-family: "Recoleta";
@@ -555,6 +555,10 @@ header {
 }
 .polygons {
   position: relative;
+}
+.mobile_flex{
+  display: flex;
+  column-gap: 5px;
 }
 .artwork_Section .polygon_left::before {
   content: "";
@@ -633,6 +637,12 @@ header {
 .legend_section {
   /* margin-top: 180px; */
   padding-top: 60px;
+}
+.west_coffee h1 {
+  font-size: 58px;
+  line-height: 67px;
+  font-family: "Recoleta";
+  color: rgba(26, 24, 24, 1);
 }
 .west_coffee h3 {
   font-size: 68px;
@@ -1046,7 +1056,7 @@ header {
 
 .heading_icon_third {
   position: absolute;
-  right: -155px;
+  right: -110px;
   top: 0px;
 }
 .heading_icon_fourth {
@@ -1562,7 +1572,7 @@ header {
   .mobile-logo {
     width: 183px;
   }
-  .matt_heading h2 {
+  .matt_heading h1 {
     text-align: center;
     font-size: 55px;
     font-family: "Recoleta";
@@ -1871,7 +1881,7 @@ header {
   padding-top: 70px;
   /* max-width: 986px; */
 }
-.series-banner-content h3 {
+.series-banner-content h1 {
   font-size: 75.96px;
   line-height: 103.3px;
   letter-spacing: -1px;
@@ -2186,7 +2196,7 @@ header {
   .contact-form {
     padding: 30px 0px;
   }
-  .series-banner .series-banner-content h2 {
+  .series-banner .series-banner-content h1 {
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 0px;
@@ -2211,7 +2221,7 @@ header {
   .series-banner-content {
     padding-top: 15px;
   }
-  .series-banner-content h2 {
+  .series-banner-content h1 {
     font-size: 60.96px;
     line-height: 93.3px;
     max-width: 586px;
