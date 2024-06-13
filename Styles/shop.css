@@ -21,12 +21,11 @@
 .breadcrum-wrap span:first-of-type {
   opacity: 100%;
 }
-.west_coffee h1{
-  font-size: 58px;
+.west_coffee h1 {
+  font-size: 51px;
   line-height: 67px;
-font-weight: 400;
-font-family: "Recoleta";
-
+  font-weight: 400;
+  font-family: "Recoleta";
 }
 
 .Wild_heading h1 {
@@ -149,9 +148,9 @@ font-family: "Recoleta";
 .checked {
   border: 2px solid black !important;
 }
-.checked input{
-    display: block;
-    margin-left: auto;
+.checked input {
+  display: block;
+  margin-left: auto;
 }
 .box_container {
   margin-top: -38px;
@@ -592,7 +591,7 @@ font-family: "Recoleta";
   width: 97%;
   /* margin-top: 11px; */
 }
-.thumbnail_width #thumbnails{
+.thumbnail_width #thumbnails {
   margin-bottom: 0;
 }
 .splide__slide img {

@@ -441,7 +441,7 @@ header {
   margin-top: 35px;
 }
 .explore_heading h1 {
-  font-size: 64px;
+  font-size: 51px;
   font-family: "RecifeDisplay";
   font-weight: 300;
   line-height: 67px;
@@ -489,7 +489,7 @@ header {
   padding-bottom: 80px;
 }
 .matt_heading h1 {
-  font-size: 70px;
+  font-size: 51px;
   font-family: "Recoleta";
   line-height: 95.2px;
   font-weight: 400;
@@ -538,9 +538,9 @@ header {
 .Exhibition_section .left_image_section .view_award {
   display: none;
 }
-.exhibition_heading h1 {
-  font-size: 70px;
-  line-height: 72px;
+.exhibition_heading h3 {
+  font-size: 49px;
+  line-height: 62px;
   font-family: "Recoleta";
 }
 .exhibition_text {
@@ -555,6 +555,21 @@ header {
 }
 .polygons {
   position: relative;
+}
+.wild-slider-img-wrap{
+  display: flex;
+  column-gap: 7px;
+}
+.wild-slider-img-wrap img{
+  width: 100%;
+  height: 100%;
+}
+.wild-slider-img-sec img{
+  max-width: 334px;
+  object-fit: cover;
+}
+.wild-slider-img-sec-third img{
+  max-width: 311px;
 }
 .mobile_flex{
   display: flex;
@@ -639,14 +654,14 @@ header {
   padding-top: 60px;
 }
 .west_coffee h1 {
-  font-size: 58px;
+  font-size: 51px;
   line-height: 67px;
   font-family: "Recoleta";
   color: rgba(26, 24, 24, 1);
 }
 .west_coffee h3 {
-  font-size: 68px;
-  line-height: 72px;
+  font-size: 49px;
+  line-height: 62px;
   font-family: "Recoleta";
   color: rgba(26, 24, 24, 1);
 }
@@ -1103,6 +1118,9 @@ header {
 .desktop_cards {
   display: none;
 }
+.header .logo {
+  width: 125px;
+}
 
 @media (max-width: 920px) {
   .menu-btn,
@@ -1415,7 +1433,9 @@ header {
   .artwork_Section .col-lg-7 {
     padding: 0 5px;
   }
-
+  .separator_bar{
+    margin-top: 10px;
+  }
   .explore_more {
     margin-top: 6px;
     text-align: center !important;
@@ -1574,7 +1594,7 @@ header {
   }
   .matt_heading h1 {
     text-align: center;
-    font-size: 55px;
+    font-size: 51px;
     font-family: "Recoleta";
     line-height: 74.8px;
     font-weight: 400;
@@ -1598,12 +1618,12 @@ header {
   .left_col {
     order: 2;
   }
-  .exhibition_heading h1 br {
+  .exhibition_heading h3 br {
     display: none !important;
   }
-  .exhibition_heading h1 {
+  .exhibition_heading h3 {
     font-weight: 400;
-    font-size: 50px;
+    font-size: 38px;
     line-height: 62px;
     font-family: "Recoleta";
   }
@@ -1619,6 +1639,12 @@ header {
     padding-bottom: 40px;
   }
   .west_coffee h1 {
+    font-size: 38px;
+    line-height: 47px;
+    font-family: "Recoleta";
+    color: rgba(26, 24, 24, 1);
+  }
+  .west_coffee h3 {
     font-size: 38px;
     line-height: 47px;
     font-family: "Recoleta";
@@ -1881,9 +1907,9 @@ header {
   padding-top: 70px;
   /* max-width: 986px; */
 }
-.series-banner-content h1 {
-  font-size: 75.96px;
-  line-height: 103.3px;
+.series-banner-content h3 {
+  font-size: 49.96px;
+  line-height: 97.3px;
   letter-spacing: -1px;
   font-family: "Recoleta";
   max-width: 986px;
@@ -2163,7 +2189,7 @@ header {
     padding-top: 30px;
     background: transparent !important;
   }
-  .series-banner-img img {
+  .series-banner-img > img {
     display: none;
   }
 }
@@ -2196,7 +2222,7 @@ header {
   .contact-form {
     padding: 30px 0px;
   }
-  .series-banner .series-banner-content h1 {
+  .series-banner .series-banner-content h3 {
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 0px;
@@ -2221,8 +2247,8 @@ header {
   .series-banner-content {
     padding-top: 15px;
   }
-  .series-banner-content h1 {
-    font-size: 60.96px;
+  .series-banner-content h3 {
+    font-size: 49.96px;
     line-height: 93.3px;
     max-width: 586px;
 }
