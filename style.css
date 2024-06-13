@@ -538,6 +538,11 @@ header {
 .Exhibition_section .left_image_section .view_award {
   display: none;
 }
+.exhibition_heading h1 {
+  font-size: 49px;
+  line-height: 62px;
+  font-family: "Recoleta";
+}
 .exhibition_heading h3 {
   font-size: 49px;
   line-height: 62px;
@@ -1617,6 +1622,15 @@ header {
   }
   .left_col {
     order: 2;
+  }
+  .exhibition_heading h1 br {
+    display: none !important;
+  }
+  .exhibition_heading h1 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 62px;
+    font-family: "Recoleta";
   }
   .exhibition_heading h3 br {
     display: none !important;
