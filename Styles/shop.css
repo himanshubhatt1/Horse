@@ -154,6 +154,7 @@
 }
 .box_container {
   margin-top: -38px;
+  column-gap: 10px;
 }
 
 .inbox_checked {
@@ -213,7 +214,7 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 16.9px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: rgba(0, 0, 0, 1);
 }
 .frame_box .frame_one .Unframed {
@@ -259,7 +260,7 @@
   font-family: "Recoleta";
   font-weight: 400;
   line-height: 16.9px;
-  letter-spacing: 2px;
+  letter-spacing: 1.8px;
   margin-top: 5px;
 }
 

@@ -367,8 +367,9 @@ header {
 
 .explore_more a {
   /* padding: 13px 4px 13px 4px; */
-  font-size: 20px;
+  font-size: 16px;
   line-height: 31.27px;
+  letter-spacing: 1px;
   color: #000;
   transition: 0.5s all;
   font-family: "Recoleta";
@@ -509,10 +510,14 @@ header {
 }
 .matt_anchor .read_more a {
   color: rgba(0, 0, 0, 1);
-  font-size: 22.99px;
+  font-size: 16px;
+  letter-spacing: 1px;
   font-family: "Recoleta";
   font-weight: 400;
   text-decoration: none;
+}
+.matt_anchor .read_more a img{
+  width: 35px;
 }
 .matt_Dusing {
   position: relative;
