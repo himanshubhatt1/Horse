@@ -347,7 +347,22 @@ header {
   padding-top: 9px;
   height: 42px;
 }
+.artistry_section{
+  padding: 35px 0;
+}
 
+.carousel-indicators {
+  bottom: 50px;
+}
+.carousel-text{
+  color: #000;
+    letter-spacing: 1px;
+    line-height: 27.28px;
+    font-family: "Recoleta";
+    font-weight: 400;
+    font-size: 17px;
+    padding: 10px 0;
+}
 .explore_more button {
   /* width: 170px;
   height: 57px; */
@@ -360,13 +375,27 @@ header {
   transition: 0.5s all;
   font-family: "Recoleta";
 }
+.explore_more a {
+  /* width: 170px;
+  height: 57px; */
+  background-color: #201e1e;
+  border: 2px solid #201e1e;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 21.76px;
+  color: #ffffff;
+  transition: 0.5s all;
+  font-family: "Recoleta";
+  text-decoration: none;
+  letter-spacing: 1px;
+}
 .explore_more button img{
   width: 18px;
 }
 
 
-.explore_more a {
-  /* padding: 13px 4px 13px 4px; */
+/* .explore_more a {
+ padding: 13px 4px 13px 4px;
   font-size: 16px;
   line-height: 31.27px;
   letter-spacing: 1px;
@@ -377,19 +406,24 @@ header {
   align-items: center;
   display: flex;
   justify-content: end;
-  transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out; 
 }
-.explore_more a:hover span {
+/* .explore_more a:hover span {
   border: 1px solid #000;
   background: transparent;
+} */
+
+.explore_more a:hover {
+  background-color: white;
+  color: black;
 }
 .explore_more a:hover .show_arrow {
-  display: block;
+  display: inline;
 }
 .explore_more a:hover .hide_arrow {
   display: none;
 }
-.explore_more a span {
+/* .explore_more a span {
   background: #000;
   border: 1px solid #000;
   border-radius: 50%;
@@ -401,9 +435,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .explore_more a img {
-  width: 45px
+  width: 18px
 }
 .artistry_section .motion_text {
   color: rgba(0, 0, 0, 0.78);
@@ -652,7 +686,7 @@ header {
   }
 }
 
-.view_award button {
+.view_award a {
   /* width: 185px; */
   background-color: rgba(32, 30, 30, 1);
   color: white;
@@ -665,8 +699,9 @@ header {
   transition: 0.5s all;
   padding: 8px 16px;
   letter-spacing: 1px;
+  text-decoration: none;
 }
-.view_award button img{
+.view_award a img{
   width: 18px;
 }
 .legend_section {
@@ -709,7 +744,7 @@ header {
   color: rgba(18, 18, 19, 1);
 }
 
-.Buy_now_btn button {
+.Buy_now_btn a {
   /* width: 171.94px;
   height: 57px; */
   border: 2px solid rgba(32, 30, 30, 1);
@@ -722,6 +757,7 @@ header {
   transition: 0.5s all;
   letter-spacing: 1px;
   padding: 8px 16px;
+  text-decoration: none;
 }
 .Buy_now_btn button img{
   width: 18px;
@@ -845,7 +881,8 @@ header {
   color: rgba(52, 52, 52, 1);
   font-size: 14px;
   text-decoration: none;
-
+  display: flex;
+  align-items: center;
   line-height: 14.18px;
   font-weight: 600;
   font-family: "Poppins-Regular";
@@ -901,7 +938,7 @@ header {
 
 .body {
   position: relative;
-  height: 128vh;
+  height: 120vh;
 }
 .swiper {
   width: 100%;
@@ -998,13 +1035,16 @@ header {
   background-color: white;
   color: black;
 }
-.view_award button:hover {
+.view_award a:hover {
   background-color: white;
   color: black;
 }
-.Buy_now_btn button:hover {
+.Buy_now_btn a:hover {
   background-color: white;
   color: black;
+}
+.Buy_now_btn a img {
+  width: 18px;
 }
 .show_arrow {
   display: none;
@@ -1015,16 +1055,16 @@ header {
 .explore_more button:hover .show_arrow {
   display: inline;
 }
-.view_award button:hover .hide_arrow {
+.view_award a:hover .hide_arrow {
   display: none;
 }
-.view_award button:hover .show_arrow {
+.view_award a:hover .show_arrow {
   display: inline;
 }
-.Buy_now_btn button:hover .hide_arrow {
+.Buy_now_btn a:hover .hide_arrow {
   display: none;
 }
-.Buy_now_btn button:hover .show_arrow {
+.Buy_now_btn a:hover .show_arrow {
   display: inline;
 }
 .mobile_view {
@@ -1306,6 +1346,9 @@ header {
   .classs_hide {
     display: none;
   }
+  .carousel-indicators {
+    bottom: 82px;
+}
   .innovated_title h1 {
     font-family: "Recoleta";
     font-weight: 400;
@@ -1963,6 +2006,7 @@ header {
   color: #000;
   max-width: 986px;
   margin: auto;
+  margin-bottom: 25px;
 }
 .view-series-btn a {
   text-decoration: none;
@@ -2337,3 +2381,9 @@ header {
   top: 30%;
 }
 }
+/* @media (min-width:1381px){
+  .body {
+    height: 76vh;
+}
+} */
+
