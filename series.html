@@ -330,7 +330,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <p class="left_image"><img src="./assets/images/hawaiian.png" alt="exhibition"
+                    <p class="left_image mt-lg-0 mt-4"><img src="./assets/images/hawaiian.png" alt="exhibition"
                             class="img-fluid w-100"></p>
                 </div>
 
@@ -406,9 +406,9 @@
             </div>
             <div class="buy_now">
               <div class="Buy_now_btn">
-                <button>Buy Now <span class="ms-2"><img src="./assets/images/right-white-arrow-svg.svg" alt="white_arrow"
+                <a href="#">Buy Now <span class="ms-2"><img src="./assets/images/right-white-arrow-svg.svg" alt="white_arrow"
                       class="img-fluid hide_arrow"></span> <span><img src="./assets/images/right-black-arrow-svg.svg"
-                      alt="black_arrow" class="img-fluid show_arrow"></span></button>
+                      alt="black_arrow" class="img-fluid show_arrow"></span></a>
                 <p class="free_shipping mobile_view d-block">Free Shipping In The US</p>
               </div>
               <div class="Usd_65 mt-3">
@@ -521,6 +521,49 @@
       </div>
     </section>
     <!-- end-footer_section -->
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+  const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+  const dropdownMenus = document.querySelectorAll('.dropdown-menus');
+
+  dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', (event) => {
+      event.preventDefault();
+      const parent = toggle.parentElement;
+      const menu = parent.querySelector('.dropdown-menus');
+
+      // Close all other open dropdowns
+      dropdownMenus.forEach(m => {
+        if (m !== menu) {
+          m.style.display = 'none';
+        }
+      });
+
+      // Toggle the clicked dropdown
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('.nav-item')) {
+      dropdownMenus.forEach(menu => {
+        menu.style.display = 'none';
+      });
+    }
+  });
+
+  const innerArrows = document.querySelectorAll('.inner-aro-menu');
+  innerArrows.forEach(innerArrow => {
+    innerArrow.addEventListener('click', (event) => {
+      event.preventDefault();
+      const innerMenu = innerArrow.nextElementSibling;
+      innerMenu.style.display = innerMenu.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+});
+ </script>
+
     <script src="./script.js"></script>
 </body>
 

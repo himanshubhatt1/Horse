@@ -869,7 +869,48 @@
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 "></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+ const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+ const dropdownMenus = document.querySelectorAll('.dropdown-menus');
 
+ dropdownToggles.forEach(toggle => {
+   toggle.addEventListener('click', (event) => {
+     event.preventDefault();
+     const parent = toggle.parentElement;
+     const menu = parent.querySelector('.dropdown-menus');
+
+     // Close all other open dropdowns
+     dropdownMenus.forEach(m => {
+       if (m !== menu) {
+         m.style.display = 'none';
+       }
+     });
+
+     // Toggle the clicked dropdown
+     menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+   });
+ });
+
+ // Close dropdowns when clicking outside
+ document.addEventListener('click', (event) => {
+   if (!event.target.closest('.nav-item')) {
+     dropdownMenus.forEach(menu => {
+       menu.style.display = 'none';
+     });
+   }
+ });
+
+ const innerArrows = document.querySelectorAll('.inner-aro-menu');
+ innerArrows.forEach(innerArrow => {
+   innerArrow.addEventListener('click', (event) => {
+     event.preventDefault();
+     const innerMenu = innerArrow.nextElementSibling;
+     innerMenu.style.display = innerMenu.style.display === 'block' ? 'none' : 'block';
+   });
+ });
+});
+</script>
   <script src="./script.js"></script>
 </body>
 
