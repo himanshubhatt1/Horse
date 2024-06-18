@@ -1155,7 +1155,10 @@ header {
 .heading_icon_fourth img{
   filter: invert(1) brightness(2);
 }
-
+.footer-logo{
+  width: 130px;
+  mix-blend-mode: multiply;
+}
 .experi_margin {
   margin-top: -33px !important;
 }
@@ -1371,6 +1374,9 @@ header {
     line-height: 23px;
     letter-spacing: 1px;
   }
+  .artistry_section {
+    padding: 35px 20px;
+}
   .desktop_cards {
     display: block;
   }
