@@ -1255,6 +1255,9 @@ header {
     right: 15px;
     left: initial;
     top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .inner-aro-menu {
     display: flex;
@@ -1265,7 +1268,7 @@ header {
     filter: brightness(0) invert(1);
     transform: rotate(90deg);
   }
-  
+
   .navbar-nav .dropdown-menu {
     padding: 15px 0;
     background: #1e1e1e;
