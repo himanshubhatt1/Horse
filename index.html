@@ -832,9 +832,10 @@
     });
   });
 
-      const aboutLink = document.querySelector('.nav-item .nav-link[href="/about"]');
+      const aboutLink = document.querySelector('.nav-item .nav-link[href="/new.html"]');
     if (aboutLink) {
       aboutLink.addEventListener('click', (event) => {
+        console.log('hello')
         // Close all dropdowns
         dropdownMenus.forEach(menu => {
           menu.style.display = 'none';
