@@ -92,8 +92,8 @@
                         </li>
                       </ul>
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="./series.html">Hawaiian Series</a>
+                    <li class="nav-item">
+                      <a class="dropdown-item nav-link" href="./series.html" >Hawaiian Series</a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">Los Angeles Series</a>
@@ -831,6 +831,17 @@
       innerMenu.style.display = innerMenu.style.display === 'block' ? 'none' : 'block';
     });
   });
+
+      const aboutLink = document.querySelector('.nav-item .nav-link[href="/about"]');
+    if (aboutLink) {
+      aboutLink.addEventListener('click', (event) => {
+        // Close all dropdowns
+        dropdownMenus.forEach(menu => {
+          menu.style.display = 'none';
+        });
+        // Continue with the default action (redirect to /about)
+      });
+    }
 });
  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
