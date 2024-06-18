@@ -42,8 +42,8 @@ header {
 .close-btn {
   background: transparent;
   border: none;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   position: absolute;
   left: 0px;
@@ -1251,7 +1251,7 @@ header {
     font-weight: 400;
   }
   .close-btn {
-    background: #fff;
+    /* background: #fff; */
     right: 15px;
     left: initial;
     top: 15px;
