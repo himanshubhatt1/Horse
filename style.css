@@ -1262,6 +1262,8 @@ header {
   }
   .inner-aro-menu img {
     width: 12px;
+    filter: brightness(0) invert(1);
+    transform: rotate(90deg);
   }
   .navbar-nav .dropdown-menu {
     padding: 15px 0;
