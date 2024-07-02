@@ -695,6 +695,71 @@
     </div>
   </section>
   <!-- end-footer_section -->
+
+<div class="carousel-container">
+  <div class="carousels">
+      <div class="carousels-item active"><img src="./assets/images/slider_1.png" alt="Image 1"></div>
+      <div class="carousels-item"><img src="./assets/images/slider_2.png" alt="Image 2"></div>
+      <div class="carousels-item"><img src="./assets/images/slider_1.png" alt="Image 3"></div>
+  </div>
+  <div class="carousels-indicators">
+      <div class="indicator active" onclick="currentSlide(1)">1</div>
+      <div class="indicator" onclick="currentSlide(2)">2</div>
+      <div class="indicator" onclick="currentSlide(3)">3</div>
+  </div>
+</div>
+
+  <script>
+   document.addEventListener('DOMContentLoaded', function () {
+    let currentSlideIndex = 0;
+    const slides = document.querySelectorAll('.carousels-item');
+    const indicators = document.querySelectorAll('.indicator');
+
+    console.log('Slides:', slides);
+    console.log('Indicators:', indicators);
+    console.log('Slides length:', slides.length);
+    console.log('Indicators length:', indicators.length);
+
+    function showSlide(index) {
+        if (index >= slides.length || index < 0) {
+            console.error(`Invalid slide index: ${index}`);
+            return;
+        }
+
+        slides.forEach((slide, i) => {
+            if (i < slides.length && i < indicators.length) {
+                console.log(`Updating slide and indicator at index ${i}`);
+                slide.classList.remove('active');
+                indicators[i].classList.remove('active');
+            } else {
+                console.error(`Slide or indicator at index ${i} is undefined`);
+            }
+        });
+
+        if (index < slides.length && index < indicators.length) {
+            console.log(`Activating slide and indicator at index ${index}`);
+            slides[index].classList.add('active');
+            indicators[index].classList.add('active');
+        } else {
+            console.error(`Cannot activate slide or indicator at index ${index}`);
+        }
+    }
+
+    window.currentSlide = function(index) {
+        if (index < 1 || index > slides.length) {
+            console.error(`Invalid slide index: ${index}`);
+            return;
+        }
+        currentSlideIndex = index - 1;
+        showSlide(currentSlideIndex);
+    }
+
+    // Initialize the carousel
+    showSlide(currentSlideIndex);
+});
+
+
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
